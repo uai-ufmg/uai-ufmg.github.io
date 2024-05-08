@@ -8,8 +8,10 @@
 appearance:
   theme_day: minimal
   theme_night:
-  font: native
+  font: arial
   font_size: L
+  mode: system
+  color: blue
 
 # SEO
 
@@ -35,8 +37,11 @@ header:
   navbar:
     enable: true
     align: r
+    logo:
+      text: "logo"
+      filename: "icon.png"
     show_logo: true
-    show_language: false
+    show_language: true
     show_day_night: true
     show_search: true
     highlight_active_link: false
@@ -45,7 +50,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Me. LabUAI'
     license:
       enable: true
       allow_derivatives: false
