@@ -17,11 +17,10 @@ sections:
           - Administration
           - Visitors
           - Alumni
-          - Professors
       sort_by: Params.last_name
       sort_ascending: true
     design:
-      show_interests: true
+      show_interests: false
       show_role: true
       show_social: true
 ---
