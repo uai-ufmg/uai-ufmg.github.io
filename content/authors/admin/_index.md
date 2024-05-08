@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Teste da Silva
 
 # Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+first_name: Teste
+last_name: Da Silva
 
 # Is this the primary user of the site?
 superuser: true
