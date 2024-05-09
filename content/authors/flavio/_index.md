@@ -1,24 +1,24 @@
 ---
 # Display name
-title: Flavio De Figueiredo
+title: Flavio Figueiredo
 
 # Full Name (for SEO)
-first_name: Flavio De Figueiredo
-last_name: Da Silva
+first_name: Flavio
+last_name: Figueiredo
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-# role: Professor of Artificial Intelligence
+# role: Professor
 
 # Organizations/Affiliations
 organizations:
   - name: UFMG
-    url: ''
+    url: 'https://flaviovdf.io'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: PhD in Computer Science from the Federal University of Minas Gerais (UFMG) and a BSc in Computer Science from the Federal University of Campina Grande (UFCG). Currently, works as a Professor @ UFMG. In the past, Flavio was a Research Staff Member at IBM Research Brazil and a Visiting Scholar at Carnegie Mellon University and the University of British Columbia. His research interests are focused on data science and machine learning for human/social processes.
 
 interests:
   - Empirical Software Engineering, Software Reuse, Software Quality and Measurement.
