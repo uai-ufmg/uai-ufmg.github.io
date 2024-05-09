@@ -50,9 +50,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. LabUAI'
+    notice: 'Terms of Use I Privacy 2024 Copyright - All rights reserved'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false

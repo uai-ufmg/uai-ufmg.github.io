@@ -8,7 +8,7 @@ sections:
   - block: slider
     content:
       slides:
-      - title: Welcome to LabUAI
+      - title: '**Welcome to<br>LabUAI**'
         content: Uncertainty in Artificial Intelligence Laboratory
         align: center
         background:
@@ -17,7 +17,6 @@ sections:
             filters:
               brightness: 0.7
           position: right
-          color: '#666'
 
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
