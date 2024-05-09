@@ -10,7 +10,7 @@ last_name: Figueiredo
 superuser: false
 
 # Role/position
-# role: Professor
+# role: Professor of Artificial Intelligence
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
     url: 'https://flaviovdf.io'
 
 # Short bio (displayed in user profile at end of posts)
-bio: PhD in Computer Science from the Federal University of Minas Gerais (UFMG) and a BSc in Computer Science from the Federal University of Campina Grande (UFCG). Currently, works as a Professor @ UFMG. In the past, Flavio was a Research Staff Member at IBM Research Brazil and a Visiting Scholar at Carnegie Mellon University and the University of British Columbia. His research interests are focused on data science and machine learning for human/social processes.
+bio: My research interests focus on machine learning and statistical models for human/user/social-centric datasets.
 
 interests:
   - Empirical Software Engineering, Software Reuse, Software Quality and Measurement.
@@ -70,6 +70,4 @@ user_groups:
   - Professors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+PhD in Computer Science from the Federal University of Minas Gerais (UFMG) and a BSc in Computer Science from the Federal University of Campina Grande (UFCG). Currently, works as a Professor @ UFMG. In the past, Flavio was a Research Staff Member at IBM Research Brazil and a Visiting Scholar at Carnegie Mellon University and the University of British Columbia. His research interests are focused on data science and machine learning for human/social processes.
