@@ -15,7 +15,7 @@ superuser: false
 # Organizations/Affiliations
 organizations:
   - name: UFMG
-    url: 'https://flaviovdf.io'
+    url: ''
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests focus on machine learning and statistical models for human/user/social-centric datasets.
@@ -48,10 +48,10 @@ social:
     link: https://twitter.com/GeorgeCushen
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com.br/citations?user=4QhxTFYAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/flaviovdf
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
