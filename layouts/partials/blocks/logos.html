@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range .Pages }}
+    <h1>{{ .LinkTitle }}</h1>
+    {{ if .Params.image }}
+      <div style="background-image: url('{{ .Params.image | absURL }}');">
+        <!-- Conteúdo do div -->
+      </div>
+    {{ end }}
+  {{ end }}
+{{ end }}

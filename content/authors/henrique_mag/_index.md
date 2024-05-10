@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Pedro Olmo Stancioli Vaz de Melo
+title: Henrique Magalhães
 
 # Full Name (for SEO)
-first_name: Pedro
-last_name: Olmo Stancioli Vaz de Melo
+first_name: Henrique
+last_name: Magalhães
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-# role: Professor of Artificial Intelligence
+role: UG Student
 
 # Organizations/Affiliations
 organizations:
@@ -21,7 +21,7 @@ organizations:
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 #interests:
-# - Empirical Software Engineering, Software Reuse, Software Quality and Measurement.
+#  - Empirical Software Engineering, Software Reuse, Software Quality and Measurement.
 
 education:
   courses:
@@ -67,7 +67,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Professors
+  - Team
 ---
 
 Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.

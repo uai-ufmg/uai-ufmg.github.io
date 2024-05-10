@@ -18,10 +18,10 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests focus on machine learning and statistical models for human/user/social-centric datasets.
+#bio: My research interests focus on machine learning and statistical models for human/user/social-centric datasets.
 
-interests:
-  - Empirical Software Engineering, Software Reuse, Software Quality and Measurement.
+#interests:
+#  - Empirical Software Engineering, Software Reuse, Software Quality and Measurement.
 
 education:
   courses:

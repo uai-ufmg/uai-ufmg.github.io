@@ -18,10 +18,10 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+#bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
-interests:
-  - Empirical Software Engineering, Software Reuse, Software Quality and Measurement.
+#interests:
+#  - Empirical Software Engineering, Software Reuse, Software Quality and Measurement.
 
 education:
   courses:
