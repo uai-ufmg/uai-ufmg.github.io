@@ -1,0 +1,73 @@
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+<!-- Inclua o CSS do Swiper -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<!-- Inclua o JavaScript do Swiper -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Inicialize o Swiper -->
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <!-- Adicione seus ícones aqui -->
+    {{ range $block.content.items }}
+    {{ $pack := or .icon_pack "fas" }}
+    {{ $pack_prefix := $pack }}
+    {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+      {{ $pack_prefix = "fa" }}
+    {{ end }}
+    <div class="swiper-slide">
+      {{ with .icon }}
+      <div class="featurette-icon-custom">
+        {{- if eq $pack "emoji" -}}
+          {{- . | emojify -}}
+        {{- else if eq $pack "custom" -}}
+          {{- $svg_icon := resources.Get (printf "media/icons/%s.svg" .) -}}
+          {{- if $svg_icon -}}<img src="{{ $svg_icon.RelPermalink }}" alt="{{.}}" class="svg-icon svg-baseline" loading="lazy">{{- end -}}
+        {{- else -}}
+          <i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i>
+        {{- end -}}
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+
+  <!-- Adicione controles de navegação se desejar -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</div>
+
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: window.innerWidth > 768 ? 5 : 'auto', // Mostra 5 slides por vez se a largura da janela for maior que 768px, caso contrário, mostra o máximo possível
+    spaceBetween: 30,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      // quando a largura da janela for >= 320px
+      320: {
+        slidesPerView: 3,
+        spaceBetween: 10
+      },
+      // quando a largura da janela for >= 480px
+      480: {
+        slidesPerView: 3,
+        spaceBetween: 30
+      },
+      // quando a largura da janela for >= 640px
+      640: {
+        slidesPerView: 4,
+        spaceBetween: 40
+      },
+      900: {
+        slidesPerView: 11,
+        spaceBetween: 0
+      }
+    }
+  });
+  </script>
+  

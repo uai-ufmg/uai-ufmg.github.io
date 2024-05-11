@@ -1,0 +1,122 @@
+// Define as cores
+$cor-primaria: #000000; // azul padrão do Bootstrap
+$cor-secundaria: #6c757d; // cinza padrão do Bootstrap
+
+// Estilos personalizados para o footer
+.site-footer {
+  color: rgb(0, 0, 0);
+  padding: 30px 0;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.powered-by {
+  font-size: 0px;
+}
+
+.powered-by p {
+  font-size: 0px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.powered-by a {
+  font-size: 0px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.social-icons {
+  margin-top: 20px; /* Espaçamento superior */
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px; /* Espaçamento entre os ícones */
+  font-size: 20px;
+  color: white;
+}
+
+/* Estilos para os links de política e termos */
+.powered-by a:hover {
+  text-decoration: underline;
+}
+
+.company-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.company-logo {
+  width: 30%; /* Ajuste conforme necessário */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.company-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .company-logo {
+    width: 45%; /* Ajuste para telas menores */
+    margin-bottom: 20px; /* Espaçamento entre as empresas em telas menores */
+  }
+}
+
+.hero-title strong {
+  font-size: clamp(30px, 8vw, 100px);
+  text-align: center;
+}
+
+.col-12 p {
+  text-align: center;
+}
+
+.col-12.col-sm-4 p {
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: clamp(10px, 2vw, 15px);
+}
+
+// Meu bloco - Logomarcas dos parceiros
+
+.featurette-custom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  justify-content: center; /* Alinha os itens horizontalmente no centro */
+  height: 100%; /* Adicionado */
+}
+
+.icon-container {
+  flex: 1 0 21%; /* Ou qualquer porcentagem que você desejar */
+  max-width: 5%; /* Deve corresponder à porcentagem acima */
+  padding: 10px; /* Diminua o padding para deixar os ícones mais próximos */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featurette-icon-custom {
+  text-align: center;
+  padding: 0px;
+  font-size: 100px; /* Aumenta o tamanho dos ícones */
+}
+
+.home-section.wg-features2 {
+  padding: 0px;
+  background-color: #f9f9fb;
+}
+
+.home-section wg-markdown {
+  padding: 70px 0;
+}

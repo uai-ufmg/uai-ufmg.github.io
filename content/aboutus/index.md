@@ -13,6 +13,46 @@ sections:
         Our history of excellence and achievements goes back to the Smart Sense Lab research group, founded in 2013, and the Laboratory of Statistical Learning founded in 2020. In June 2023, professors from both laboratories, Flavio Figueiredo, Renato Martins, Pedro Olmo and William Schwartz , gave rise to the UAI.
         Currently, the UAI conducts research projects, strategic Research and Development (R&D) partnerships and training in collaboration with several partners, such as Petrobras, Trixel, Localiza, C&A, Maxtrack, HP, Samsung, the State Research Support Foundation of Minas Gerais (Fapemig), the National Council for Scientific and Technological Development (CNPq), Coordination for the Improvement of Higher Education Personnel (Capes), Usiminas and Samarco.
 
+  - block: features2
+    content:
+      title:
+      text:
+      items:
+        - name: Petrobras
+          icon: Company-01
+          icon_pack: custom
+        - name: Petrobras
+          icon: Company-02
+          icon_pack: custom
+          icon_pack: custom
+        - name: Petrobras
+          icon: Company-03
+          icon_pack: custom
+        - name: Petrobras
+          icon: Company-04
+          icon_pack: custom
+        - name: Petrobras
+          icon: Company-05
+          icon_pack: custom
+        - name: Petrobras
+          icon: Company-06
+          icon_pack: custom
+        - name: Petrobras
+          icon: Company-07
+          icon_pack: custom
+        - name: Petrobras
+          icon: Company-08
+          icon_pack: custom
+        - name: Petrobras
+          icon: Company-09
+          icon_pack: custom
+        - name: Petrobras
+          icon: Company-10
+          icon_pack: custom
+        - name: Petrobras
+          icon: Company-11
+          icon_pack: custom
+
   - block: features
     content:
       title: What we do

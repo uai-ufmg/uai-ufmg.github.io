@@ -18,8 +18,7 @@ sections:
       coordinates:
         latitude: '-19.869589247438096'
         longitude: '-43.96465454212052'
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      appointment_url: 'https://calendly.com'
+      directions: Room 3310, Department of Computer Science (DCC), Federal University of Minas Gerais (UFMG)
       #contact_links:
       #  - icon: comments
       #    icon_pack: fas

@@ -8,7 +8,7 @@ sections:
   - block: slider
     content:
       slides:
-      - title: '**Welcome to<br>LabUAI**'
+      - title: '**Welcome to LabUAI**'
         content: Uncertainty in Artificial Intelligence Laboratory
         align: center
         background:
