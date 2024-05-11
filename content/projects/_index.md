@@ -14,7 +14,7 @@ sections:
   - block: slider
     content:
       slides:
-      - title: '[**Research Projects**](https://www.example.com)'
+      - title: '[**Research Projects**](../researchProject/)'
         content:
         align: center
         background:
