@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Projects
 date: 2022-10-24
 
 type: landing
@@ -14,7 +14,7 @@ sections:
   - block: slider
     content:
       slides:
-      - title: '[**Research Projects**](../researchProject/)'
+      - title: '[**Research Projects**](researchProjects/)'
         content:
         align: center
         background:

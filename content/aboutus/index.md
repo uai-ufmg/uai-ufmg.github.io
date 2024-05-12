@@ -1,5 +1,5 @@
 ---
-title: My page
+title: About us
 type: landing
 
 sections:

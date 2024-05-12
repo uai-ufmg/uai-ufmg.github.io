@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Alexei Machado
+title: Gustavo Lúcius
 
 # Full Name (for SEO)
-first_name: _Alexei
-last_name: Manso
+first_name: Gustavo
+last_name: Lúcius
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Professor of the Department of Anatomy and Imaging - UFMG School of Medicine
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:

@@ -162,3 +162,42 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
     width: 100%;
   }
 }
+
+// BREADCRUMB
+.breadcrumb {
+  padding: 10px 15px;
+  list-style: none;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.breadcrumb li {
+  display: inline-block;
+}
+
+.breadcrumb li+li:before {
+  content: "»";
+  padding: 0 5px;
+  color: #ccc;
+}
+
+.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+.breadcrumb li a:hover {
+  color: #014c8c;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .breadcrumb li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .breadcrumb li+li:before {
+    content: "";
+  }
+}
