@@ -14,7 +14,7 @@ sections:
   - block: slider
     content:
       slides:
-      - title: '[**Research Projects**](researchProjects/_index.md)'
+      - title: '[Research Projects]{{<ref "/projects/researchProjects" >}}'
         content:
         align: center
         background:
