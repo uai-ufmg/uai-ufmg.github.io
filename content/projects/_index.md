@@ -14,7 +14,7 @@ sections:
   - block: slider
     content:
       slides:
-      - title: '<a href="{{< ref "/projects/researchProjects" >}}">Research Projects</a>'
+      - title: '**<a href="{{< ref "/projects/researchProjects" >}}">Research Projects</a>**'
         content:
         align: center
         background:
@@ -23,7 +23,7 @@ sections:
             filters:
               brightness: 0.7
           position: right
-      - title: '[**R&D**](https://www.example.com)'
+      - title: '**<a href="{{< ref "/projects/researchAndDevlopment" >}}">R&D</a>**'
         content:
         align: center
         background:
@@ -32,7 +32,7 @@ sections:
             filters:
               brightness: 0.7
           position: right
-      - title: '[**Knowledge &<br>Training**](https://www.example.com)'
+      - title: '**<a href="{{< ref "/projects/KnowledgeAndTraining" >}}">Knowledge & Training</a>**'
         content:
         align: center
         background:

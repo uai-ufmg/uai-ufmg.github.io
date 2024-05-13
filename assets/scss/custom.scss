@@ -67,8 +67,13 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
   }
 }
 
+.hero-title {
+  font-size: clamp(30px, 4vw, 50px);
+  text-align: center;
+}
+
 .hero-title strong {
-  font-size: clamp(30px, 8vw, 100px);
+  font-size: clamp(30px, 4vw, 50px);
   text-align: center;
 }
 
