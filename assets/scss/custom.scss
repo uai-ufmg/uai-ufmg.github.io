@@ -67,18 +67,9 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
   }
 }
 
-.hero-title {
-  font-size: clamp(30px, 4vw, 50px);
-  text-align: center;
-}
-
-.hero-title strong {
-  font-size: clamp(30px, 4vw, 50px);
-  text-align: center;
-}
-
 .col-12 p {
   text-align: center;
+  font-size: clamp(10px, 2vw, 18px);
 }
 
 .col-12.col-sm-4 p {
@@ -114,16 +105,21 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 .featurette-icon-custom {
   text-align: center;
   padding: 0px;
-  font-size: 100px; /* Aumenta o tamanho dos ícones */
+  font-size: 70px; /* Aumenta o tamanho dos ícones */
 }
 
 .home-section.wg-features2 {
   padding: 0px;
-  background-color: #f9f9fb;
+  background-color: #ffffff;
 }
 
-.home-section wg-markdown {
+.home-section.wg-markdown {
+  padding: 35px 0;
+}
+
+.home-section.wg-features {
   padding: 70px 0;
+  background-color: #fbfbfba4;
 }
 
 // Estilo dos projetos
@@ -204,5 +200,59 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 
   .breadcrumb li+li:before {
     content: "";
+  }
+}
+
+// HERO
+.hero-title {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.hero-title strong {
+  font-size: clamp(30px, 4vw, 70px);
+  text-align: center;
+  color: #ffffff;
+}
+
+.col-12.col-md-6.text-center.text-md-left .hero-title strong {
+  font-size: clamp(50px, 4vw, 70px);
+  color: #000000;
+}
+
+.hero-lead p {
+  font-size: clamp(10px, 4vw, 23px);
+  padding: 10px;
+  color: #000000;
+}
+
+// BUTTON CTA
+
+.btn.btn-light.btn-lg.mb-md-1 {
+  background-color: #c70000;
+  border-color: #ffffff;
+  color: white;
+}
+
+.home-section.fullscreen, .fullscreen {
+  /* Define a altura mínima para grandes telas */
+  min-height: calc(100vh - 70px);
+}
+
+@media (max-width: 768px) {
+  .home-section.fullscreen, .fullscreen {
+    /* Ajusta a altura para telas menores */
+    min-height: 20vh; /* ou o valor que melhor se ajuste ao seu design */
+    background-size: cover; /* Garante que a imagem cubra toda a área disponível */
+    background-position: center; /* Centraliza a imagem */
+  }
+}
+
+@media (max-width: 820px) {
+  .home-section.fullscreen, .fullscreen {
+    /* Ajusta a altura para telas menores */
+    min-height: 35vh; /* ou o valor que melhor se ajuste ao seu design */
+    background-size: cover; /* Garante que a imagem cubra toda a área disponível */
+    background-position: center; /* Centraliza a imagem */
   }
 }
