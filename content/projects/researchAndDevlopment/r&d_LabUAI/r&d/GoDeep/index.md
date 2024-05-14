@@ -15,7 +15,7 @@ sections:
       # Add your Call-To-Action (CTA) button and optional icon
       cta:
         label: Know more
-        url: /projects/researchanddevlopment/rd_labuai/rd/godeep/knowmore/
+        url: projects/researchanddevlopment/rd_labuai/rd/godeep/knowmore/
         #icon_pack: fas
         #icon: download
       # Optionally, add a note under the Call-To-Action button
