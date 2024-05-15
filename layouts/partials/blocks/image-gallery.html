@@ -1,0 +1,17 @@
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $custom_id := $block.custom_id | default "image-gallery" }}
+<div id="{{ $custom_id }}" class="image-gallery">
+    {{ range $index, $element := $block.content.images }}
+    <figure class="{{ if eq $index 0 }}destaque{{ end }}">
+        {{ $image := resources.Get (printf "media/%s" .filename) }}
+        {{ if $image }}
+            <img src="{{ $image.Permalink }}" alt="{{ .alt }}">
+        {{ else }}
+            <p>Imagem não encontrada: {{ .filename }}</p>
+        {{ end }}
+        <figcaption>{{ .alt }}</figcaption>
+    </figure>
+    {{ end }}
+</div>
