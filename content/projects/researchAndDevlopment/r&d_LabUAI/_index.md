@@ -1,5 +1,5 @@
 ---
-title: "Research Projects"
+title: "Projects"
 show_breadcrumb: true
 type: landing
 
@@ -7,7 +7,7 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: Research Projects
+      title: Projects
       #subtitle:
       #text:
       filters:
