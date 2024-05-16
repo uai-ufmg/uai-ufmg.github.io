@@ -8,7 +8,7 @@ tags: ["R&D"]
 sections:
   - block: hero
     content:
-      title: '**<a href="{{< ref "/projects/researchAndDevlopment/r&d_LabUAI/r&d/GoDeep/KnowMore/" >}}">ACESS R&D</a>**'
+      title: 'GoDeep'
       image:
         filename: GoDeep_hero.png
       cta:
