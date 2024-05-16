@@ -8,7 +8,7 @@ tags: ["R&D"]
 sections:
   - block: hero
     content:
-      title: 'GoDeep'
+      title: '**GoDeep**'
       image:
         filename: GoDeep_hero.png
       cta:
