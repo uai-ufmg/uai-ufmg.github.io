@@ -1,8 +1,7 @@
 ---
-title: Know more
+title: Know more (GoDeep)
 date: 2022-10-24
 show_breadcrumb: true
-
 
 type: landing
 
