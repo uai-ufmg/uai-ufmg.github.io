@@ -3,7 +3,7 @@ title: Jordan AI Max
 type: landing
 show_breadcrumb: true
 
-tags: ["AI"]
+tags: [""]
 
 sections:
   - block: markdown

@@ -3,7 +3,7 @@ title: SynthoMind
 type: landing
 show_breadcrumb: true
 
-tags: ["Machine Learning"]
+tags: [""]
 
 sections:
   - block: markdown
