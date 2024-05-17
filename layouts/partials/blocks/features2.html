@@ -35,39 +35,43 @@
   </div>
 
   <!-- Adicione controles de navegação se desejar -->
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
+  <!-- <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div> -->
 </div>
 
 <script>
-  var swiper = new Swiper('.swiper-container', {
-    slidesPerView: window.innerWidth > 768 ? 5 : 'auto', // Mostra 5 slides por vez se a largura da janela for maior que 768px, caso contrário, mostra o máximo possível
-    spaceBetween: 30,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 'auto', // Exibe o máximo de slides possível
+  spaceBetween: 30, // Espaçamento entre os slides
+  loop: true, // Ativa o loop contínuo
+  autoplay: {
+    delay: 0, // Sem atraso entre as animações
+    disableOnInteraction: false, // Continua mesmo após interação do usuário
+  },
+  speed: 5000, // Velocidade do slide (em milissegundos)
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 3,
+      spaceBetween: 10
     },
-    breakpoints: {
-      // quando a largura da janela for >= 320px
-      320: {
-        slidesPerView: 3,
-        spaceBetween: 10
-      },
-      // quando a largura da janela for >= 480px
-      480: {
-        slidesPerView: 3,
-        spaceBetween: 30
-      },
-      // quando a largura da janela for >= 640px
-      640: {
-        slidesPerView: 4,
-        spaceBetween: 40
-      },
-      900: {
-        slidesPerView: 11,
-        spaceBetween: 0
-      }
+    480: {
+      slidesPerView: 3,
+      spaceBetween: 20
+    },
+    640: {
+      slidesPerView: 4,
+      spaceBetween: 30
+    },
+    900: {
+      slidesPerView: 8,
+      spaceBetween: 30
     }
-  });
+  }
+});
+
   </script>
   

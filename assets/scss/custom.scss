@@ -68,6 +68,11 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 }
 
 .col-12 p {
+  text-align: justify;
+  font-size: clamp(10px, 2vw, 18px);
+}
+
+.col-12 p.mt-1 {
   text-align: center;
   font-size: clamp(10px, 2vw, 18px);
 }
@@ -80,6 +85,29 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 
 // Meu bloco - Logomarcas dos parceiros
 
+/* Estilo base para o Swiper */
+.swiper-container {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  min-height: 50px;
+  overflow-x: hidden; // NÃO MEXER
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 768px) {
+  .swiper-container {
+    width: 100%; /* Ocupe toda a largura do elemento pai */
+  }
+}
+
+@media (min-width: 745px) {
+  .swiper-container {
+    width: auto; /* Comportamento padrão para telas maiores */
+  }
+}
+
 .featurette-custom {
   display: flex;
   flex-wrap: wrap;
@@ -90,7 +118,9 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
   display: flex;
   align-items: center; /* Alinha os itens verticalmente no centro */
   justify-content: center; /* Alinha os itens horizontalmente no centro */
-  height: 100%; /* Adicionado */
+  height: auto; /* Adicionado */
+  padding: 0; /* Remove qualquer preenchimento */
+  margin: 0; /* Remove qualquer margem */
 }
 
 .icon-container {
@@ -105,8 +135,14 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 .featurette-icon-custom {
   text-align: center;
   padding: 0px;
-  font-size: 70px; /* Aumenta o tamanho dos ícones */
+  font-size: 10vh; /* Aumenta o tamanho dos ícones */
 }
+
+.container:has(.swiper-container.swiper-initialized.swiper-horizontal) {
+  max-width: 1920px;
+}
+
+// HOME
 
 .home-section.wg-features2 {
   padding: 0px;
@@ -120,6 +156,11 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 .home-section.wg-features {
   padding: 70px 0;
   background-color: #ffffff;
+}
+
+.home-section.wg-image-gallery {
+  background-color: #ffffff;
+  padding: 5px 0;
 }
 
 // Estilo dos projetos
@@ -318,20 +359,75 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
   // Adicione quaisquer outros estilos que você deseja para destacar a imagem
 }
 
+@media (max-width: 800px) {
+  .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 15px;
+    padding: 0;
+  }
+
+  .image-gallery figure.destaque {
+    grid-column: span 1; // Ajuste para telas menores
+  }
+}
+
 @media (max-width: 1080px) {
   .image-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-gap: 15px;
     padding: 0;
-    justify-content: center;
-    &::after {
-      content: '';
-      width: 500px;
-    }
   }
 
   .image-gallery figure.destaque {
-    grid-column: span 1; // Ajuste para telas menores
+    grid-column: span 0; // Ajuste para telas menores
   }
+}
+
+// Breadcrumb
+.article-container.py-1 {
+  max-width: 65%;
+}
+
+// Home
+.bloco-cabecalho {
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  padding: 50px 20px;
+}
+
+.conteudo-cabecalho h1 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.conteudo-cabecalho p {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.botao-saiba-mais {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fefefe;
+  color: #8a0002;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.home-section.wg-cabecalho {
+  background-color: transparent;
+  align-items: center;
+  align-self: center;
+}
+
+.home-section:first-of-type {
+  padding-top: 13vh;
+  padding-bottom: 13vh;
+  align-items: center;
+  text-align: center;
 }

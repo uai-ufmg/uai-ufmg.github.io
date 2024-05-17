@@ -1,0 +1,52 @@
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+<!-- Bloco de Cabeçalho -->
+{{ $section_id := "section-cabecalho" }}
+{{ $div_class := "home-section wg-cabecalho" }}
+<section>
+  <div id="{{ $section_id }}" class="{{ $div_class }}">
+  {{ $background_image := resources.Get (printf "media/%s" $block.content.background_image) }}
+  {{ if $background_image }}
+    <style>
+      section.home-section.wg-cabecalho   {
+        background-image: url('{{ $background_image.RelPermalink }}');
+        background-size: cover;
+        background-position: center;
+        margin: 1vh;
+        border-radius: 10px;
+      }
+      #{{ $section_id }} {
+        background-color: invisible;
+      }
+    </style>
+    <div class="conteudo-cabecalho">
+      <h1>{{ $block.content.title }}</h1>
+      <p>{{ $block.content.text }}</p>
+      {{ if $block.content.button_text }}
+        <!-- Adicione o link da âncora com a classe "scroll-to" -->
+        <a href=".{{ $section_id }}" class="botao-saiba-mais scroll-to">{{ $block.content.button_text }}</a>
+      {{ end }}
+    </div>
+  {{ else }}
+    <p>Imagem de fundo não encontrada: {{ $block.content.background_image }}</p>
+  {{ end }}
+</div>
+</section>
+
+
+<script>
+  document.querySelectorAll('.scroll-to').forEach(button => {
+    button.addEventListener('click', event => {
+      event.preventDefault();
+      const targetId = button.getAttribute('href').substring(1);
+      const targetElement = document.getElementByClass(targetId);
+      if (targetElement) {
+        window.scrollTo({
+          top: targetElement.offsetTop,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+</script>  
