@@ -23,18 +23,6 @@ organizations:
 #interests:
 #  - Empirical Software Engineering, Software Reuse, Software Quality and Measurement.
 
-education:
-  courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
-
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -69,5 +57,3 @@ highlight_name: false
 user_groups:
   - Team
 ---
-
-PhD in Computer Science from the Federal University of Minas Gerais (UFMG) and a BSc in Computer Science from the Federal University of Campina Grande (UFCG). Currently, works as a Professor @ UFMG. In the past, Flavio was a Research Staff Member at IBM Research Brazil and a Visiting Scholar at Carnegie Mellon University and the University of British Columbia. His research interests are focused on data science and machine learning for human/social processes.
