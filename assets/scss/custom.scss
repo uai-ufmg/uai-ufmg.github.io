@@ -2,19 +2,6 @@
 $cor-primaria: #000000; // azul padrão do Bootstrap
 $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 
-// Imports
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
-
-// Fontes
-@font-face {
-  font-family: Sora;
-  src: url(https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap);
-}
-
-.page-wrapper {
-  font-family: Sora;
-}
-
 // Footer
 .site-footer {
   color: rgb(0, 0, 0);
