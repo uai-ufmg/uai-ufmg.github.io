@@ -3,6 +3,8 @@ title: Research and Development (R&D)
 date: 2022-10-24
 show_breadcrumb: true
 
+tags: ["projects"]
+
 type: landing
 
 sections:
@@ -25,8 +27,12 @@ sections:
         # Exclude content with these tags
         exclude_tags: []
         # Which Hugo page kinds to show (https://gohugo.io/templates/section-templates/#page-kinds)
-        #kinds:
-        #  - page
+        kinds:
+          - page
+          - section
+          - term
+          - taxonomy
+          - home
       # Field to sort by, such as Date or Title
       sort_by: 'Date'
       sort_ascending: false
