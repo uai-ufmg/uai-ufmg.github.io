@@ -2,7 +2,20 @@
 $cor-primaria: #000000; // azul padrão do Bootstrap
 $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 
-// Estilos personalizados para o footer
+// Imports
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+// Fontes
+@font-face {
+  font-family: Sora;
+  src: url(https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap);
+}
+
+.page-wrapper {
+  font-family: Sora;
+}
+
+// Footer
 .site-footer {
   color: rgb(0, 0, 0);
   padding: 30px 0;
@@ -69,7 +82,7 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 
 .col-12 p {
   text-align: justify;
-  font-size: clamp(10px, 2vw, 18px);
+  font-size: clamp(12px, 2vw, 18px);
 }
 
 .col-12 p.mt-1 {
@@ -399,7 +412,7 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 }
 
 .conteudo-cabecalho h1 {
-  font-weight: bold;
+  font-weight: 550;
   color: #fff;
   font-size: 2.5em;
   margin-bottom: 20px;
@@ -426,8 +439,6 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 }
 
 .home-section:first-of-type {
-  padding-top: 13vh;
-  padding-bottom: 13vh;
   align-items: center;
   text-align: center;
 }

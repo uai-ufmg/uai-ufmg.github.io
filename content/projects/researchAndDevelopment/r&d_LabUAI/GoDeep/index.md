@@ -13,7 +13,7 @@ sections:
         filename: GoDeep_hero.png
       cta:
         label: Know more
-        url: "/projects/researchanddevlopment/knowmore/godeep/"
+        url: "/projects/researchanddevelopment/knowmore/godeep/"
 
       text: |-
         The Geoscience Oriented Deep Learning (GODeep) project, in partnership with Petrobras, seeks to improve deep machine learning models to solve geoscience problems. From a computational point of view, the project focuses on applying machine learning models to complex data such as images and time series. For geosciences, such models are useful in Oil exploration from seismic images, easy and well mining data.

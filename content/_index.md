@@ -55,7 +55,7 @@ sections:
 
   - block: features
     content:
-      title: What we do
+      title: 'What we do'
       text: <br><br>
       items:
         - name: Artificial Intelligence

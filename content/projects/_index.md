@@ -23,7 +23,7 @@ sections:
             filters:
               brightness: 0.7
           position: right
-      - title: '**<a href="{{< ref "/projects/researchAndDevlopment" >}}">R&D</a>**'
+      - title: '**<a href="{{< ref "/projects/researchAndDevelopment" >}}">R&D</a>**'
         content:
         align: center
         background:
