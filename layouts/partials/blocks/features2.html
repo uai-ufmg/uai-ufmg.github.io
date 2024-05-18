@@ -1,16 +1,12 @@
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
 
-<!-- Inclua o CSS do Swiper -->
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-<!-- Inclua o JavaScript do Swiper -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<!-- Inicialize o Swiper -->
 <div class="swiper-container">
   <div class="swiper-wrapper">
-    <!-- Adicione seus ícones aqui -->
     {{ range $block.content.items }}
     {{ $pack := or .icon_pack "fas" }}
     {{ $pack_prefix := $pack }}
@@ -34,21 +30,18 @@
     {{ end }}
   </div>
 
-  <!-- Adicione controles de navegação se desejar -->
-  <!-- <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div> -->
 </div>
 
 <script>
 var swiper = new Swiper('.swiper-container', {
-  slidesPerView: 'auto', // Exibe o máximo de slides possível
-  spaceBetween: 30, // Espaçamento entre os slides
-  loop: true, // Ativa o loop contínuo
+  slidesPerView: 'auto',
+  spaceBetween: 30,
+  loop: true,
   autoplay: {
-    delay: 0, // Sem atraso entre as animações
-    disableOnInteraction: false, // Continua mesmo após interação do usuário
+    delay: 0,
+    disableOnInteraction: false,
   },
-  speed: 5000, // Velocidade do slide (em milissegundos)
+  speed: 5000,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
