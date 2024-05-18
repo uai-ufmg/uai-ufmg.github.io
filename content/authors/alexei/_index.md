@@ -28,18 +28,12 @@ organizations:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: <i class="fa-solid fa-flag"></i>
-    icon_pack: custom
-    link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.com.br/citations?user=4QhxTFYAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/flaviovdf
+  - icon_pack: "ai"
+    icon: "lattes"
+    link: "http://lattes.cnpq.br/5064888330358588"
+  - icon_pack: "fa"
+    icon: "globe"
+    link: "https://somos.ufmg.br/professor/alexei-manso-correa-machado"
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -57,3 +51,5 @@ highlight_name: false
 user_groups:
   - Team
 ---
+
+Alexei M. C. Machado has a degree in Computer Science (1989) and Computer Engineering (2013) from the Pontifical Catholic University of Minas Gerais - PUC Minas, a master's degree (1994) and a doctorate (1999) in Computer Science from the Federal University of Minas Gerais - UFMG under the guidance of Prof. Mario F. M. Campos and Prof. James Gee and Ruzena Bajcsy from Un. Pennsylvania U.S.A. where he developed his dissertation with a Sandwich Doctorate scholarship from CAPES, returning in 2004 in a post-doctoral program. He is currently an adjunct professor in the Computer Science Course and the Postgraduate Program in Informatics at PUC Minas, an associate professor at the School of Medicine at UFMG, a member of the INCT for Molecular Medicine and the Center for Innovation in Artificial Intelligence (CIIA) for Health. He has experience in the areas of Computer Science and Medicine, working mainly on the following topics: computer vision, medical image analysis, machine learning, Big Data analysis, Geographic Information Systems, information retrieval and knowledge discovery in large volumes of multivariate data.

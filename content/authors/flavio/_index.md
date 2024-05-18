@@ -17,34 +17,17 @@ organizations:
   - name: UFMG
     url: ''
 
-# Short bio (displayed in user profile at end of posts)
-#bio: My research interests focus on machine learning and statistical models for human/user/social-centric datasets.
-
-#interests:
-#  - Empirical Software Engineering, Software Reuse, Software Quality and Measurement.
-
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.com.br/citations?user=4QhxTFYAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/flaviovdf
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+  - icon_pack: "fab"
+    icon: "github"
+    link: "https://github.com/flaviovdf"
+  - icon_pack: "ai"
+    icon: "lattes"
+    link: "http://lattes.cnpq.br/9481210393304645"
+  - icon_pack: "fa"
+    icon: "globe"
+    link: "https://dcc.ufmg.br/professor/flavio-vinicius-diniz-de-figueiredo/"
+
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -52,8 +35,8 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Professors
 ---
+
+Flavio Figueiredo has a degree in Computer Science from the Federal University of Campina Grande (2007), a master's degree in Computer Science from the Federal University of Minas Gerais (2010) and a doctorate from the Federal University of Minas Gerais (2015). During his doctorate, he was a sandwich doctoral fellow at Carnegie Mellon University (2014), as well as a visiting researcher at the University of British Columbia (2011). He has worked as a researcher at the IBM Research research laboratory in Brazil. He is currently a professor at the Federal University of Minas Gerais. Main research themes: User Behavior Analysis and Modeling, Human Factors in Computing, Data Science and Machine Learning.

@@ -28,18 +28,12 @@ organizations:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
+  - icon_pack: "ai"
+    icon: "lattes"
+    link: "http://lattes.cnpq.br/3575559872183767"
+  - icon_pack: "fa"
+    icon: "globe"
+    link: "https://dcc.ufmg.br/professor/renato-martins-assuncao/"
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -57,3 +51,5 @@ highlight_name: false
 user_groups:
   - Professors
 ---
+
+Bachelor's degree in Mathematics from the Federal University of Minas Gerais (1984), Master's degree in Mathematics, emphasis on Statistics, from the National Institute of Pure and Applied Mathematics Association (IMPA) in 1987, Doctorate (PhD) in Statistics from the University of Washington, Seattle, in 1994. Currently, he is a Full Professor in the Department of Computer Science at the Federal University of Minas Gerais, located in Belo Horizonte, MG, Brazil. His specialty is modeling real problems with stochastic models, with an emphasis on spatial statistics. He is involved in applications in demography, actuarial sciences, epidemiology, economics, among other areas. He is associate editor of Biometrics and International Journal of Health Geographics.
