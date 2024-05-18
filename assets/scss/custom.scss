@@ -85,7 +85,6 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 
 // Meu bloco - Logomarcas dos parceiros
 
-/* Estilo base para o Swiper */
 .swiper-container {
   width: 100%;
   height: auto;
@@ -98,13 +97,13 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 /* Ajuste para telas menores */
 @media (max-width: 768px) {
   .swiper-container {
-    width: 100%; /* Ocupe toda a largura do elemento pai */
+    width: 100%;
   }
 }
 
 @media (min-width: 745px) {
   .swiper-container {
-    width: auto; /* Comportamento padrão para telas maiores */
+    width: auto; 
   }
 }
 
@@ -116,17 +115,17 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 
 .swiper-slide {
   display: flex;
-  align-items: center; /* Alinha os itens verticalmente no centro */
-  justify-content: center; /* Alinha os itens horizontalmente no centro */
-  height: auto; /* Adicionado */
-  padding: 0; /* Remove qualquer preenchimento */
-  margin: 0; /* Remove qualquer margem */
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding: 0;
+  margin: 0;
 }
 
 .icon-container {
-  flex: 1 0 21%; /* Ou qualquer porcentagem que você desejar */
-  max-width: 5%; /* Deve corresponder à porcentagem acima */
-  padding: 10px; /* Diminua o padding para deixar os ícones mais próximos */
+  flex: 1 0 21%;
+  max-width: 5%;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -388,46 +387,6 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 // Breadcrumb
 .article-container.py-1 {
   max-width: 65%;
-}
-
-// Home
-.bloco-cabecalho {
-  position: relative;
-  text-align: center;
-  background-size: cover;
-  padding: 50px 20px;
-}
-
-.conteudo-cabecalho h1 {
-  font-weight: 550;
-  color: #fff;
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-.conteudo-cabecalho p {
-  color: #fff;
-  margin-bottom: 20px;
-}
-
-.botao-saiba-mais {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #fefefe;
-  color: #8a0002;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.home-section.wg-cabecalho {
-  background-color: transparent;
-  align-items: center;
-  align-self: center;
-}
-
-.home-section:first-of-type {
-  align-items: center;
-  text-align: center;
 }
 
 // PROJECTS

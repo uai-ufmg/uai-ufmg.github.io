@@ -16,7 +16,6 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: Projects
       #subtitle:
       #text:
       filters:

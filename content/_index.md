@@ -9,7 +9,7 @@ sections:
     content:
       title: 'Welcome to LabUAI'
       text: 'Uncertainty in Artificial Intelligence Laboratory'
-      button_text: 'Saiba mais'
+      button_text: 'Know More'
       button_link: 'site-footer'
       background_image: LabUAI_Welcome.png
 
