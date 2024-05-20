@@ -19,3 +19,11 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
+
+[forms]
+  [forms."contact"]
+    email = {
+      from = "no-reply@seusite.com"
+      to = ["lucasmomede@gmail.com"]
+      subject = "LabUAI"
+    }

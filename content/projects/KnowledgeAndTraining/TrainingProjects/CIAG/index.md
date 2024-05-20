@@ -3,7 +3,7 @@ title: CIAG
 type: landing
 show_breadcrumb: true
 
-tags: ["teste2"]
+tags: ["training"]
 
 sections:
   - block: markdown

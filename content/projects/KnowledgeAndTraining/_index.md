@@ -16,7 +16,7 @@ sections:
         # Folders to display content from
         folders:
         # Only show content with these tags
-        tags: ["teste2"]
+        tags: ["training"]
         # Exclude content with these tags
         exclude_tags: []
         # Which Hugo page kinds to show (https://gohugo.io/templates/section-templates/#page-kinds)

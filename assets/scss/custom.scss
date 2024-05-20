@@ -315,7 +315,7 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
   justify-content: center;
   &::after {
     content: '';
-    width: 500px;
+    width: 300px;
   }
 }
 
@@ -346,7 +346,7 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 }
 
 .image-gallery figure:hover img {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .image-gallery figure:hover figcaption {
