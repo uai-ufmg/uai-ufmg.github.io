@@ -7,10 +7,10 @@ type: landing
 sections:
   - block: cabecalho
     content:
-      title: 'WELCOME TO LABUAI'
+      title: 'Welcome to LabUAI'
       text: 'Uncertainty in Artificial Intelligence Laboratory'
-      #button_text: 'Know More'
-      #button_link: 'site-footer'
+      button_text: 'Know More'
+      button_link: 'aboutus'
       background_image: dcc-bg.png
 
   - block: features2

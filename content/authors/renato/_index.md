@@ -10,7 +10,7 @@ last_name: Martins Assunção
 superuser: false
 
 # Role/position
-# role: Professor of Artificial Intelligence
+role: DCC/UFMG
 
 # Organizations/Affiliations
 organizations:

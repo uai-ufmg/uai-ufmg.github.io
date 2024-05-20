@@ -1,21 +1,19 @@
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
-
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
 </head>
-
 <!-- Bloco de Cabeçalho -->
 {{ $section_id := "section-cabecalho" }}
 {{ $div_class := "home-section wg-cabecalho" }}
 <section>
-  <div id="{{ $section_id }}" class="{{ $div_class }}">
-  {{ $background_image := resources.Get (printf "media/%s" $block.content.background_image) }}
+    <div id="{{ $section_id }}" class="{{ $div_class }}">
+        {{ $background_image := resources.Get (printf "media/%s" $block.content.background_image) }}
   {{ if $background_image }}
-    <style>
+        <style>
       section.home-section.wg-cabecalho {
         background-image: url('{{ $background_image.RelPermalink }}');
         background-size: cover;
@@ -23,15 +21,26 @@
         padding-top: 0;
         padding-bottom: 0;
         text-align: left;
-        height: 92vh;
+        height: 75vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         position: relative;
       }
-      @media (max-width: 992px) {
-        height: 90vh;
-        background-image: url('media/redwave.jpg');
+      @media (max-width: 800px) {
+        section.home-section.wg-cabecalho{
+          height: 55vh;
+        }
+      }
+      @media (min-width: 800px) {
+        section.home-section.wg-cabecalho{
+          height: 50vh;
+        }
+      }
+      @media (min-width: 1000px) {
+        section.home-section.wg-cabecalho{
+          height: 75vh;
+        }
       }
       #{{ $section_id }} {
         background-color: transparent;
@@ -69,12 +78,31 @@
       .botao-saiba-mais {
         align-items: center;
         display: inline-block;
-        padding: 10px 20px;
-        background-color: #fefefe;
-        color: #8a0002;
+        padding: 12px 24px;
+        background-color: #8a0002;
+        color: #fff;
         text-decoration: none;
-        border-radius: 200px;
+        border-radius: 30px;
         font-size: 1em;
+        transition: background-color 0.3s ease;
+      }
+
+      .botao-saiba-mais:hover {
+        background-color: #6b0001;
+        transform: scale(1.05); /* Aumenta um pouco o tamanho ao passar o mouse */
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+      }
+
+      .botao-saiba-mais:hover, .botao-saiba-mais:hover * {
+        color: #fff; /* Remove a cor azul */
+        text-decoration: none; /* Remove o sublinhado */
+      }
+
+      @media (max-width: 768px) {
+        .botao-saiba-mais {
+          padding: 10px 20px;
+          font-size: 0.9em;
+        }
       }
       .scroll-arrow {
         position: absolute;
@@ -101,25 +129,24 @@
           transform: translate(-50%, -5px);
         }
       }
-    </style>
-    <div class="conteudo-cabecalho">
-      <h1>{{ $block.content.title }}</h1>
-      <p>{{ $block.content.text }}</p>
-      {{ if $block.content.button_text }}
-        <a href="#next-section" class="botao-saiba-mais scroll-to">{{ $block.content.button_text }}</a>
-      {{ end }}
+        </style>
+        <div class="conteudo-cabecalho">
+            <h1>{{ $block.content.title }}</h1>
+            <p>{{ $block.content.text }}</p>
+            {{ if $block.content.button_text }}
+            <a href="aboutus" class="botao-saiba-mais"> {{ $block.content.button_text }}</a>
+            {{ end }}
+        </div>
+        <div class="scroll-arrow" id="scroll-arrow">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"></path>
+            </svg>
+        </div>
+        {{ else }}
+        <p>Imagem de fundo não encontrada: {{ $block.content.background_image }}</p>
+        {{ end }}
     </div>
-    <div class="scroll-arrow" id="scroll-arrow">
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"></path>
-      </svg>
-    </div>
-  {{ else }}
-    <p>Imagem de fundo não encontrada: {{ $block.content.background_image }}</p>
-  {{ end }}
-  </div>
 </section>
-
 <script>
   document.querySelectorAll('.scroll-to').forEach(button => {
     button.addEventListener('click', event => {
@@ -145,10 +172,7 @@
     }
   });
 </script>
-
-<section id="next-section">
-</section>
-
+<section id="next-section"></section>
 <style>
 body, html {
   margin: 0;

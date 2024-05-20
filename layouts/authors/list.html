@@ -1,0 +1,82 @@
+{{- define "main" -}}
+
+{{/* Author profile page. */}}
+
+{{/* If an account has not been created for this user, just display their name as the title. */}}
+{{ if not .File }}
+<div class="universal-wrapper pt-3">
+  <h1>{{ .Title }}</h1>
+</div>
+{{ end }}
+
+{{/* Breadcrumb */}}
+{{ $authorName := .Name | replaceRE "(^\\d+-)" "" | humanize | title }} 
+{{ $breadcrumb := slice "Home" "Members" $authorName }}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    {{ range $index, $item := $breadcrumb }}
+      {{ if eq $index 0 }}
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+      {{ else if eq $index (sub (len $breadcrumb) 1) }}
+        <li class="breadcrumb-item active" aria-current="page">{{ $item }}</li>
+      {{ else }}
+        <li class="breadcrumb-item"><a href="/members/">{{ $item }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ol>
+</nav>
+
+<section id="profile-page" class="pt-5">
+  <div class="container">
+    {{/* Show the About block if an account exists for this user. */}}
+    {{/* TODO: remove dependency on v1 blocks. Either migrate to v2 blocks(?) or directly implement layout here. */}}
+    {{ if .File }}
+      {{ $widget := "blocks/v1/about.html" }}
+      {{ $username := (path.Base .File.Dir) }}{{/* Alternatively, use `index .Params.authors 0` */}}
+      {{ $params := dict "wcPage" $ "wcBlock" . "author" $username }}
+      {{ partial $widget $params }}
+    {{end}}
+
+    {{ $query := where .Pages ".IsNode" false }}
+    {{ $count := len $query }}
+    {{ if $count }}
+    <div class="article-widget content-widget-hr">
+      <h3>{{ i18n "user_profile_latest" | default "Latest" }}</h3>
+      <ul>
+        {{ range $query }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+<style>
+    /* Breadcrumb Styles */
+    .breadcrumb {
+      background-color: #ffffff;
+      padding: 12px 18vh;
+      border-radius: 4px;
+    }
+  
+    .breadcrumb-item {
+      display: flex;
+      margin-right: 5px;
+      max-width: 200px;
+    }
+  
+    .breadcrumb-item.active {
+      color: #6c757d;
+    }
+  
+    @media (max-width: 450px) {
+        .breadcrumb {
+            display: none;
+        }
+    }
+  </style>
+
+{{- end -}}

@@ -5,7 +5,7 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: people
+  - block: people2
     content:
       title: Members
       user_groups:

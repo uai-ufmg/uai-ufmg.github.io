@@ -3,14 +3,14 @@
 title: Pedro Olmo Stancioli Vaz de Melo
 
 # Full Name (for SEO)
-first_name: Pedro
+first_name: 'Pedro'
 last_name: Olmo Stancioli Vaz de Melo
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-# role: Professor of Artificial Intelligence
+role: DCC/UFMG
 
 # Organizations/Affiliations
 organizations:

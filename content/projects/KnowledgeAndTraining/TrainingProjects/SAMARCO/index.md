@@ -1,5 +1,5 @@
 ---
-title: Data Science residency program
+title: Samarco Residence
 type: landing
 show_breadcrumb: true
 
@@ -8,7 +8,7 @@ tags: ["training"]
 sections:
   - block: markdown
     content:
-      title: Data Science residency program
+      title: Samarco Residence
       subtitle:
       text: '<p>Há seis meses, a Samarco selecionou 16 empregadas e empregados de diversas áreas para formar a primeira turma de Residência em Ciência de Dados, em parceria com o Departamento de Ciência da Computação da UFMG. E nesta sexta-feira (03/03/2023) nossos profissionais concluíram mais essa etapa, onde mergulharam fundo, aplicaram conhecimento e desenvolveram modelos e protótipos de soluções com grande potencial de criação de valor para o negócio.
 
