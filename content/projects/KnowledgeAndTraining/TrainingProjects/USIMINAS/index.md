@@ -1,5 +1,5 @@
 ---
-title: Data science residency
+title: Usiminas Data science residency
 type: landing
 show_breadcrumb: true
 
