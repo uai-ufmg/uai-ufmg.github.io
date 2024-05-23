@@ -1,5 +1,5 @@
 ---
-title: Usiminas Residence
+title: Data science residency
 type: landing
 show_breadcrumb: true
 
@@ -8,7 +8,7 @@ tags: ["training"]
 sections:
   - block: markdown
     content:
-      title: Usiminas Residence
+      title: Usiminas Data science residency
       subtitle:
       text: '<p>Thinking about expanding the knowledge of its employees, Usiminas carried out mentoring with professionals from the Federal University of Minas Gerais, one of the references in data science in the country. The initiative was the result of a partnership between Universidade Corporativa Usiminas, IT Directorate and UFMG.
 
