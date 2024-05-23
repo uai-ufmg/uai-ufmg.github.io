@@ -1,5 +1,5 @@
 ---
-title: Samarco Data science residency
+title: Data science residency
 type: landing
 show_breadcrumb: true
 
