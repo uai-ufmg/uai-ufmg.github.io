@@ -12,7 +12,6 @@ sections:
       button_text: 'Know More'
       button_link: 'aboutus'
       background_image: dcc-bg-2.png
-
   - block: features2
     content:
       title:

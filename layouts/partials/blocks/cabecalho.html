@@ -39,7 +39,7 @@
       }
       @media (min-width: 1000px) {
         section.home-section.wg-cabecalho{
-          height: 75vh;
+          height: 78vh;
         }
       }
       #{{ $section_id }} {
@@ -51,7 +51,7 @@
       }
       .conteudo-cabecalho {
         text-align: center;
-        color: #fff;
+        color: #ffffff;
         padding: 20px;
         z-index: 1;
       }
@@ -62,8 +62,8 @@
       .conteudo-cabecalho h1 {
         font-family: 'Sora';
         font-weight: 500;
-        color: white;
-        font-size: 4em;
+        color: rgb(255, 255, 255);
+        font-size: 3.5em;
         margin-bottom: 20px;
       }
       @media (max-width: 992px) {
@@ -78,24 +78,23 @@
       .botao-saiba-mais {
         align-items: center;
         display: inline-block;
-        padding: 12px 24px;
-        background-color: #8a0002;
-        color: #fff;
+        padding: 10px 40px;
+        background-color: #9a0000;
+        color: #ffffff;
         text-decoration: none;
         border-radius: 30px;
         font-size: 1em;
-        transition: background-color 0.3s ease;
+        transition: background-color 0.6s ease;
       }
 
       .botao-saiba-mais:hover {
-        background-color: #6b0001;
-        transform: scale(1.05); /* Aumenta um pouco o tamanho ao passar o mouse */
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+        background-color: #770c0c;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
       }
 
       .botao-saiba-mais:hover, .botao-saiba-mais:hover * {
-        color: #fff; /* Remove a cor azul */
-        text-decoration: none; /* Remove o sublinhado */
+        color: #fff;
+        text-decoration: none;
       }
 
       @media (max-width: 768px) {
@@ -104,30 +103,9 @@
           font-size: 0.9em;
         }
       }
-      .scroll-arrow {
-        position: absolute;
-        bottom: 10px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 40px;
-        height: 40px;
-        fill: #ff0000; /* Change this color to whatever you want */
-        cursor: pointer;
-        animation: bounce 2s infinite;
-      }
+
       path {
         fill: #ffff;
-      }
-      @keyframes bounce {
-        0%, 20%, 50%, 80%, 100% {
-          transform: translate(-50%, 0);
-        }
-        40% {
-          transform: translate(-50%, -10px);
-        }
-        60% {
-          transform: translate(-50%, -5px);
-        }
       }
         </style>
         <div class="conteudo-cabecalho">
@@ -136,11 +114,6 @@
             {{ if $block.content.button_text }}
             <a href="projects" class="botao-saiba-mais"> {{ $block.content.button_text }}</a>
             {{ end }}
-        </div>
-        <div class="scroll-arrow" id="scroll-arrow">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"></path>
-            </svg>
         </div>
         {{ else }}
         <p>Imagem de fundo não encontrada: {{ $block.content.background_image }}</p>

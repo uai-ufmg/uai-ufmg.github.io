@@ -3,11 +3,8 @@ $cor-primaria: #000000; // azul padrão do Bootstrap
 $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 
 // Footer
-.page-footer {
-  background-color: #151515;
-}
 .site-footer {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding: 30px 0;
   text-align: center;
   margin-top: 0px;
@@ -157,7 +154,7 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 
 .home-section.wg-features {
   padding: 70px 0;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
 }
 
 .home-section.wg-image-gallery {
@@ -292,17 +289,19 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
   
   @media (max-width: 768px) {
     .home-section.fullscreen, .fullscreen {
-      min-height: 20vh;
-      background-size: cover;
-      background-position: center;
+      /* Ajusta a altura para telas menores */
+      min-height: 20vh; /* ou o valor que melhor se ajuste ao seu design */
+      background-size: cover; /* Garante que a imagem cubra toda a área disponível */
+      background-position: center; /* Centraliza a imagem */
     }
   }
   
   @media (max-width: 820px) {
     .home-section.fullscreen, .fullscreen {
-      min-height: 35vh;
-      background-size: cover;
-      background-position: center;
+      /* Ajusta a altura para telas menores */
+      min-height: 35vh; /* ou o valor que melhor se ajuste ao seu design */
+      background-size: cover; /* Garante que a imagem cubra toda a área disponível */
+      background-position: center; /* Centraliza a imagem */
     }
   }
 }
@@ -396,12 +395,17 @@ section#projects.home-section.wg-portfolio  {
   padding: 1vh 0;
 }
 
-// MEMBERS
-.home-section.wg-people2 {
-  padding: 3vh 0;
+// FOOTER
+.site-footer {
+  color: white;
 }
 
-// DATASETS
-.universal-wrapper {
-  padding-bottom: 5vh;
+.page-footer {
+  background-color: #222222;
+  color: white;
+}
+
+// MEMBERS
+.home-section.wg-people2{
+  padding-bottom: 1vh;
 }

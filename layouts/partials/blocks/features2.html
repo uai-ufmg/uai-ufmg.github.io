@@ -33,38 +33,36 @@
 </div>
 
 <script>
-var swiper = new Swiper('.swiper-container', {
-  slidesPerView: 'auto',
-  spaceBetween: 30,
-  loop: true,
-  autoplay: {
-    delay: 0,
-    disableOnInteraction: false,
-  },
-  speed: 5000,
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 3,
-      spaceBetween: 10
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 'auto',
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
     },
-    480: {
-      slidesPerView: 3,
-      spaceBetween: 20
+    speed: 4000,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
     },
-    640: {
-      slidesPerView: 4,
-      spaceBetween: 30
-    },
-    900: {
-      slidesPerView: 8,
-      spaceBetween: 30
+    breakpoints: {
+      320: {
+        slidesPerView: 3,
+        spaceBetween: 10
+      },
+      480: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      640: {
+        slidesPerView: 4,
+        spaceBetween: 30
+      },
+      900: {
+        slidesPerView: 8,
+        spaceBetween: 30
+      }
     }
-  }
-});
-
-  </script>
-  
+  });
+</script>
