@@ -13,7 +13,7 @@
     <div id="{{ $section_id }}" class="{{ $div_class }}">
         {{ $background_image := resources.Get (printf "media/%s" $block.content.background_image) }}
   {{ if $background_image }}
-        <style>
+      <style>
       section.home-section.wg-cabecalho {
         background-image: url('{{ $background_image.RelPermalink }}');
         background-size: cover;
@@ -27,18 +27,13 @@
         justify-content: center;
         position: relative;
       }
-      @media (max-width: 800px) {
-        section.home-section.wg-cabecalho{
-          height: 62vh;
-        }
-      }
-      @media (min-width: 800px) {
-        section.home-section.wg-cabecalho{
-          height: 65vh;
+      @media (min-width: 200px) {
+        section.home-section.wg-cabecalho {
+          height: 78vh;
         }
       }
       @media (min-width: 1000px) {
-        section.home-section.wg-cabecalho{
+        section.home-section.wg-cabecalho {
           height: 78vh;
         }
       }
@@ -63,16 +58,11 @@
         font-family: 'Sora';
         font-weight: 500;
         color: rgb(255, 255, 255);
-        font-size: 3.5em;
+        font-size: 3em;
         margin-bottom: 20px;
       }
-      @media (max-width: 992px) {
-        .conteudo-cabecalho h1 {
-          font-size: 3em;
-        }
-      }
       .conteudo-cabecalho p {
-        font-size: 1.2em;
+        font-size: 0.9em;
         margin-bottom: 20px;
       }
       .botao-saiba-mais {
