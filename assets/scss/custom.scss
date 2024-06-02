@@ -2,6 +2,15 @@
 $cor-primaria: #000000; // azul padrão do Bootstrap
 $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 
+//
+html, body {
+  margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 // Footer
 .site-footer {
   color: rgb(0, 0, 0);
@@ -154,7 +163,7 @@ $cor-secundaria: #6c757d; // cinza padrão do Bootstrap
 
 .home-section.wg-features {
   padding: 70px 0;
-  background-color: #d0d0d0;
+  background-color: #ededed;
 }
 
 .home-section.wg-image-gallery {
@@ -409,4 +418,9 @@ section#projects.home-section.wg-portfolio  {
 // MEMBERS
 .home-section.wg-people2{
   padding-bottom: 1vh;
+}
+
+// DATASETS
+.universal-wrapper .media.stream-item.view-compact {
+  margin-bottom: 5vh;
 }
