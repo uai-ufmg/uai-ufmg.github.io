@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Lucas Perez
+title: Lucas Rezende
 
 # Full Name (for SEO)
 first_name: Lucas
-last_name: Perez
+last_name: Rezende
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: UG Student
+role: UG Strudent
 
 # Organizations/Affiliations
 organizations:

@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Lucas Perez
+title: Breno Mariano
 
 # Full Name (for SEO)
-first_name: Lucas
-last_name: Perez
+first_name: Breno
+last_name: Mariano
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: UG Student
+role: MSC Strudent
 
 # Organizations/Affiliations
 organizations:

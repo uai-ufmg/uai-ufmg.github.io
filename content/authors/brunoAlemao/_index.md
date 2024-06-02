@@ -10,7 +10,7 @@ last_name: Alemao
 superuser: false
 
 # Role/position
-role:
+role: Geologist
 
 # Organizations/Affiliations
 organizations:
