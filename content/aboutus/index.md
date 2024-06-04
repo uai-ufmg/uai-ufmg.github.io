@@ -35,7 +35,7 @@ sections:
             image:
               filename: sense.jpeg
               filters:
-                brightness: 0.2
+                brightness: 0.5
             position: center
         - title: '**2013 | First national award**'
           content: >
@@ -46,7 +46,7 @@ sections:
             image:
               filename: sense.jpeg
               filters:
-                brightness: 0.2
+                brightness: 0.5
             position: center
         - title: '**2014 | First defense of the masters degree**'
           content: >
@@ -57,7 +57,7 @@ sections:
             image:
               filename: sense.jpeg
               filters:
-                brightness: 0.2
+                brightness: 0.5
             position: center
         - title: '**2016 | First workshop**'
           content: >
@@ -68,7 +68,7 @@ sections:
             image:
               filename: workshop.png
               filters:
-                brightness: 0.2
+                brightness: 0.5
             position: center
         - title: '**2017 | First international award**'
           content: >
@@ -79,7 +79,7 @@ sections:
             image:
               filename: workshop.png
               filters:
-                brightness: 0.2
+                brightness: 0.5
             position: center
         - title: '**2018 | Tenth masters defense**'
           content: >
@@ -90,7 +90,7 @@ sections:
             image:
               filename: slide7.png
               filters:
-                brightness: 0.2
+                brightness: 0.5
             position: center
         - title: '**2023 | Integration of laboratories**'
           content: >
@@ -101,7 +101,7 @@ sections:
             image:
               filename: Briefing.png
               filters:
-                brightness: 0.3
+                brightness: 0.5
             position: center
 
     design:
