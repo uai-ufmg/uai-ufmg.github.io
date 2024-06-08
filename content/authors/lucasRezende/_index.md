@@ -10,7 +10,7 @@ last_name: Rezende
 superuser: false
 
 # Role/position
-role: UG Strudent
+role: UG Student
 
 # Organizations/Affiliations
 organizations:

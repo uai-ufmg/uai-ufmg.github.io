@@ -17,7 +17,7 @@ sections:
     custom_id: 'minha-galeria'
     content:
       images:
-        - filename: DCC_view.png
+        - filename: dcc-bg.png
 
   - block: markdown
     content:

@@ -11,7 +11,7 @@ sections:
       text: 'We transform science in solutions to challenge problems.'
       button_text: 'Know More'
       button_link: 'aboutus'
-      background_image: bg-dcc-home.png
+      background_image: bg-white.png
   - block: features2
     content:
       title:

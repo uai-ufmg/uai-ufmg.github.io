@@ -10,7 +10,7 @@ last_name: Mariano
 superuser: false
 
 # Role/position
-role: MSC Strudent
+role: MSC Student
 
 # Organizations/Affiliations
 organizations:
