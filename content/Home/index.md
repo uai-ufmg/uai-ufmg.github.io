@@ -13,7 +13,7 @@ sections:
         align: center
         background:
           image:
-            filename: bg-waves.png
+            filename: white-bg.png
             filters:
               brightness: 0.7
           position: right
