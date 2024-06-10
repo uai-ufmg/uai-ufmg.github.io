@@ -11,7 +11,7 @@ sections:
       text: 'We transform science in solutions to challenge problems.'
       button_text: 'Know More'
       button_link: 'aboutus'
-      background_image: white-bg.png
+      background_image: dcc-bg.png
   - block: features2
     content:
       title:
@@ -111,4 +111,3 @@ sections:
       # Duration of transition between slides (in ms)
       interval: 2000
 ---
-    
