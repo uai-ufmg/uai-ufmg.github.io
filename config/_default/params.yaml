@@ -50,7 +50,7 @@ header:
 
 footer:
   copyright:
-    notice: 'Terms of Use I Privacy 2024 Copyright - All rights reserved'
+    notice:
     license:
       enable: false
       allow_derivatives: false

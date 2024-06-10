@@ -1,15 +1,70 @@
 <footer class="site-footer">
+  {{ partial "blox-core/functions/get_hook" (dict "hook" "footer-start" "context" .) }}
 
-    {{ partial "blox-core/functions/get_hook" (dict "hook" "footer-start" "context" .) }}
-  
-    {{/* Load footer block */}}
-    {{ $footer_section_name := site.Params.footer.block | default "minimal" }}
-    {{ $footer_section_path := printf "components/footers/%s.html" $footer_section_name }}
-    {{ if not (templates.Exists (printf "partials/%s" $footer_section_path)) }}
-      {{ errorf "Check your `params.yaml`. Cannot find footer block at `layouts/partials/%s`" $footer_section_path }}
-    {{ end }}
-    {{ partial $footer_section_path . }}
-  
+  {{/* Load footer block */}}
+  {{ $footer_section_name := site.Params.footer.block | default "minimal" }}
+  {{ $footer_section_path := printf "components/footers/%s.html" $footer_section_name }}
+  {{ if not (templates.Exists (printf "partials/%s" $footer_section_path)) }}
+    {{ errorf "Check your `params.yaml`. Cannot find footer block at `layouts/partials/%s`" $footer_section_path }}
+  {{ end }}
+  {{ partial $footer_section_path . }}
 
-  </footer>
-  
+  <div class="footer-content">
+    <div class="footer-logo footer-logo-left"></div>
+    <div class="footer-text">
+      <!-- Seu texto de rodapé aqui -->
+      <p>Terms of Use I Privacy 2024 Copyright - All rights reserved</p>
+    </div>
+    <div class="footer-logo footer-logo-right"></div>
+  </div>
+</footer>
+
+<style>
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-logo {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    position: relative; /* Necessário para pseudo-elementos posicionados */
+    background-size: contain; /* Faz com que a imagem se ajuste ao contêiner */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-position: center; /* Centraliza a imagem no contêiner */
+  }
+
+  .footer-logo-left {
+    width: 7vh; /* Ajuste conforme necessário */
+    height: 7vh; /* Ajuste conforme necessário */
+    background-image: url('https://www.synergia.dcc.ufmg.br/images/logo-dcc-ufmg-2.png');
+  }
+
+  .footer-logo-right {
+    width: 5vh; /* Ajuste conforme necessário */
+    height: 5vh; /* Ajuste conforme necessário */
+    background-image: url('https://www.synergia.dcc.ufmg.br/images/logo-ufmg.png');
+  }
+
+  .footer-text {
+    flex: 2;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .footer-logo {
+      flex: 1 1 50%;
+      width: 50%;
+    }
+    .footer-logo-left, .footer-logo-right {
+      text-align: center;
+    }
+    .footer-text {
+      flex: 1 1 100%;
+      order: -1; /* Mover o texto para cima no layout */
+    }
+  }
+</style>

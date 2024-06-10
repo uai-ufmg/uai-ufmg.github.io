@@ -38,10 +38,10 @@
     spaceBetween: 30,
     loop: true,
     autoplay: {
-      delay: 0,
+      delay: 200,
       disableOnInteraction: false,
     },
-    speed: 4000,
+    speed: 3000,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -66,3 +66,9 @@
     }
   });
 </script>
+
+<style>
+  .swiper-container.swiper-initialized.swiper-horizontal {
+    padding: 0;
+  }
+</style>
