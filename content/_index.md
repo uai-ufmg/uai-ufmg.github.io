@@ -8,7 +8,7 @@ sections:
   - block: cabecalho
     content:
       title: 'Welcome to LabUAI.'
-      text: 'We transform science in solutions to challenge problems.'
+      text: 'We transform science in solutions to challenge problems. '
       button_text: 'Know More'
       button_link: 'aboutus'
       background_image: dcc-bg.png
