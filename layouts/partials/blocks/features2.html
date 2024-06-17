@@ -29,18 +29,35 @@
     </div>
     {{ end }}
   </div>
-
 </div>
+
+<style>
+  .swiper-container {
+    overflow: hidden;
+  }
+  .swiper-wrapper {
+    display: flex;
+    animation: slidein 20s linear infinite;
+  }
+  .swiper-slide {
+    flex: 0 0 auto;
+    width: calc(100% / 6);
+  }
+  @keyframes slidein {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+</style>
 
 <script>
   var swiper = new Swiper('.swiper-container', {
     slidesPerView: 'auto',
     spaceBetween: 30,
     loop: true,
-    autoplay: {
-      delay: 200,
-      disableOnInteraction: false,
-    },
     speed: 3000,
     navigation: {
       nextEl: '.swiper-button-next',
@@ -61,14 +78,8 @@
       },
       900: {
         slidesPerView: 6,
-        spaceBetween: 30
+        spaceBetween: 5
       }
     }
   });
 </script>
-
-<style>
-  .swiper-container.swiper-initialized.swiper-horizontal {
-    padding: 0;
-  }
-</style>

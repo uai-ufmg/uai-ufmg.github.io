@@ -1,0 +1,139 @@
+{{/* Hugo Blox: Features */}}
+{{/* Documentation: https://hugoblox.com/blocks/ */}}
+{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+<div class="container my-5">
+  {{ with $block.content.title }}
+  <div class="row">
+    <div class="col-12 text-center mb-4">
+      <h1>{{ . | markdownify | emojify }}</h1>
+      {{ if $block.content.subtitle }}<p>{{ $block.content.subtitle | markdownify | emojify }}</p>{{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  {{ with $block.content.text }}
+  <div class="row mb-4">
+  </div>
+  {{ end }}
+
+  <div class="row justify-content-center">
+    {{ range $block.content.items }}
+    {{ $pack := or .icon_pack "fas" }}
+    {{ $pack_prefix := $pack }}
+    {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+      {{ $pack_prefix = "fa" }}
+    {{ end }}
+    <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex align-items-stretch flex-grow-1">
+      <div class="card h-100 w-100 glass-card">
+        <div class="card-body text-center">
+          {{ with .icon }}
+          <div class="featurette-icon mb-3">
+            {{- if eq $pack "emoji" -}}
+              {{- . | emojify -}}
+            {{- else if eq $pack "custom" -}}
+              {{- $svg_icon := resources.Get (printf "media/icons/%s.svg" .) -}}
+              {{- if $svg_icon -}}<img src="{{ $svg_icon.RelPermalink }}" alt="{{.}}" class="svg-icon svg-baseline" loading="lazy">{{- end -}}
+            {{- else -}}
+              <i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i>
+            {{- end -}}
+          </div>
+          {{ end }}
+          <h5 class="card-title">{{ .name | markdownify | emojify }}</h5>
+          {{ with .description }}<p class="card-text">{{ . | markdownify | emojify }}</p>{{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+<style>
+  .featurette-icon {
+    font-size: 2.5rem;
+    color: #007bff;
+  }
+  .svg-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .card-body {
+    padding: 1.5rem;
+  }
+  .card-title {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+  .mb-3 {
+    margin-bottom: 1rem!important;
+  }
+  .mb-4 {
+    margin-bottom: 1.5rem!important;
+  }
+  .my-5 {
+    margin-top: 3rem!important;
+    margin-bottom: 3rem!important;
+  }
+  .d-flex {
+    display: flex!important;
+  }
+  .align-items-stretch {
+    align-items: stretch!important;
+  }
+  .text-center {
+    text-align: center!important;
+  }
+  .justify-content-center {
+    justify-content: center!important;
+  }
+  .container {
+    max-width: 1200px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .col-12, .col-sm-6, .col-md-4 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .flex-grow-1 {
+    flex-grow: 1;
+  }
+  @media (min-width: 576px) {
+    .col-sm-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  @media (min-width: 768px) {
+    .col-md-4 {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+    }
+  }
+
+  section#section-features3,home-section.wg-features3{
+    padding: 1vh;
+    background-color: #f6f9fb;
+  }
+</style>

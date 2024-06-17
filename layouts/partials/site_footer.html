@@ -1,4 +1,4 @@
-<footer class="site-footer">
+<footer class="site-footer bg-dark text-light py-4">
   {{ partial "blox-core/functions/get_hook" (dict "hook" "footer-start" "context" .) }}
 
   {{/* Load footer block */}}
@@ -9,62 +9,54 @@
   {{ end }}
   {{ partial $footer_section_path . }}
 
-  <div class="footer-content">
-    <div class="footer-logo footer-logo-left"></div>
-    <div class="footer-text">
-      <!-- Seu texto de rodapé aqui -->
-      <p>Terms of Use I Privacy 2024 Copyright - All rights reserved</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 text-center text-md-left mb-3 mb-md-0">
+        <div class="d-flex justify-content-center justify-content-md-start">
+          <div class="footer-logo mr-2">
+            <img src="https://www.synergia.dcc.ufmg.br/images/logo-dcc-ufmg-2.png" alt="Logo DCC UFMG" class="img-fluid" style="width: 7vh;">
+          </div>
+          <div class="footer-logo">
+            <img src="https://ufmg.br/static/logo-ufmg.svg" alt="Logo UFMG" class="img-fluid" style="width: 7vh;">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 text-center mb-3 mb-md-0">
+        <p class="mb-2">Terms of Use | Privacy Policy</p>
+        <p class="mb-0">&copy; 2024 Copyright - All rights reserved</p>
+      </div>
+      <div class="col-md-4 text-center text-md-right">
+        <div class="footer-social-icons">
+          <a href="https://github.com/uai-ufmg" class="text-light mx-2"><i class="fab fa-github fa-lg"></i></a>
+          <a href="https://youtube.com" class="text-light mx-2"><i class="fab fa-youtube fa-lg"></i></a>
+          <a href="https://instagram.com" class="text-light mx-2"><i class="fab fa-instagram fa-lg"></i></a>
+        </div>
+      </div>
     </div>
-    <div class="footer-logo footer-logo-right"></div>
   </div>
 </footer>
 
 <style>
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+  .page-footer {
+    background-color: #343a40;
+  }
+  .footer-logo img {
+    max-width: 100%;
+    height: auto;
   }
 
-  .footer-logo {
-    flex: 1;
-    text-align: center;
-    margin: 10px;
-    position: relative; /* Necessário para pseudo-elementos posicionados */
-    background-size: contain; /* Faz com que a imagem se ajuste ao contêiner */
-    background-repeat: no-repeat; /* Evita a repetição da imagem */
-    background-position: center; /* Centraliza a imagem no contêiner */
+  .footer-social-icons a {
+    color: inherit;
+    text-decoration: none;
   }
 
-  .footer-logo-left {
-    width: 7vh; /* Ajuste conforme necessário */
-    height: 7vh; /* Ajuste conforme necessário */
-    background-image: url('https://www.synergia.dcc.ufmg.br/images/logo-dcc-ufmg-2.png');
+  .footer-social-icons a:hover {
+    color: #007bff;
   }
 
-  .footer-logo-right {
-    width: 5vh; /* Ajuste conforme necessário */
-    height: 5vh; /* Ajuste conforme necessário */
-    background-image: url('https://www.synergia.dcc.ufmg.br/images/logo-ufmg.png');
-  }
-
-  .footer-text {
-    flex: 2;
-    text-align: center;
-  }
-
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
     .footer-logo {
-      flex: 1 1 50%;
-      width: 50%;
-    }
-    .footer-logo-left, .footer-logo-right {
-      text-align: center;
-    }
-    .footer-text {
-      flex: 1 1 100%;
-      order: -1; /* Mover o texto para cima no layout */
+      margin-bottom: 10px;
     }
   }
 </style>
