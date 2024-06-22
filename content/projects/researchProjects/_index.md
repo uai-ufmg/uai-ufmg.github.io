@@ -16,7 +16,7 @@ sections:
         # Folders to display content from
         folders:
         # Only show content with these tags
-        tags: ["AI", "Machine Learning"]
+        tags: ["RP"]
         # Exclude content with these tags
         exclude_tags: []
         # Which Hugo page kinds to show (https://gohugo.io/templates/section-templates/#page-kinds)
@@ -38,13 +38,6 @@ sections:
       # To show all content, set `tag` to "*".
       # To filter by a specific tag, set `tag` to an existing tag name.
       # To remove the button toolbar, delete the entire `buttons` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: AI
-          tag: AI
-        - name: Machine Learning
-          tag: "Machine Learning"
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
