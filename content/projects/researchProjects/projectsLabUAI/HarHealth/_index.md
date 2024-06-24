@@ -1,5 +1,5 @@
 ---
-title: Keymaker | Activity Recognition based on Contextual Information
+title: HAR-HEALTH | Recognition of Human Activities Associated with Chronic Diseases
 type: landing
 show_breadcrumb: true
 
@@ -8,9 +8,9 @@ tags: ["RP"]
 sections:
   - block: markdown
     content:
-      title: Keymaker | Activity Recognition based on Contextual Information
-      subtitle: 2016
-      text: <p>The project addresses the research of new algorithms for recognizing human activities by extracting information such as the importance of objects in carrying out the activity, understanding the interaction of individuals with objects present in the scene.
+      title: HAR-HEALTH | Recognition of Human Activities Associated with Chronic Diseases
+      subtitle: 2016 - 2018
+      text: <p>The objective of this project is the research and development of methods and algorithms capable of automatically recognizing human activities related to chronic diseases (diabetes, hypertension, obesity and aging) based on visual information, signals captured by sensors on personal mobile devices and signals captured by sensors installed in environments
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
