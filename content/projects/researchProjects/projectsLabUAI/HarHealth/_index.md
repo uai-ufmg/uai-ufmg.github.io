@@ -3,7 +3,7 @@ title: HAR-HEALTH | Recognition of Human Activities Associated with Chronic Dise
 type: landing
 show_breadcrumb: true
 
-tags: ["RP"]
+tags: ["RP", "Medical Imaging"]
 
 sections:
   - block: markdown

@@ -3,7 +3,7 @@ title: Samsung | Video Recognition Method Capable of Encoding Temporal and Spati
 type: landing
 show_breadcrumb: true
 
-tags: ["RP"]
+tags: ["RP", "Computer Vision"]
 
 sections:
   - block: markdown

@@ -57,45 +57,29 @@ sections:
       title: 'Our research topics'
       text: <br><br>
       items:
-        - name: Artificial Intelligence
+        - name: Geographic and Geological Data Science
           description:
           icon: ia
           icon_pack: custom
-        - name: Machine Learning
+        - name: Computer Vision
           description:
           icon: ml
           icon_pack: custom
-        - name: Deep Learning
+        - name: Medical Imaging
           description:
           icon: ia
           icon_pack: custom
-        - name: Big Data Analysis
+        - name: Music Machine Learning
           description:
           icon: ml
           icon_pack: custom
-        - name: Image processing
+        - name: Sports Analytics
           description:
           icon: ia
           icon_pack: custom
-        - name: Computer vision
+        - name: Uncertainty in AI
           description:
           icon: ml
-          icon_pack: custom
-        - name: Medical image analysis
-          description:
-          icon: ml
-          icon_pack: custom
-        - name: Computing applied to Health
-          description:
-          icon: ia
-          icon_pack: custom
-        - name: Seismic image analysis
-          description:
-          icon: ml
-          icon_pack: custom
-        - name: Geographic and geological data
-          description:
-          icon: ia
           icon_pack: custom
 
     design:

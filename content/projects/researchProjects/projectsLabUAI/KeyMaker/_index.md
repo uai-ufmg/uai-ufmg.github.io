@@ -3,7 +3,7 @@ title: Keymaker | Activity Recognition based on Contextual Information
 type: landing
 show_breadcrumb: true
 
-tags: ["RP"]
+tags: ["RP", "Computer Vision"]
 
 sections:
   - block: markdown

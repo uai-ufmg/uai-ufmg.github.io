@@ -3,7 +3,7 @@ title: GigaFrames | Large-Scale Surveillance and Computer Forensics
 type: landing
 show_breadcrumb: true
 
-tags: ["RP"]
+tags: ["RP", "Computer Vision"]
 
 sections:
   - block: markdown

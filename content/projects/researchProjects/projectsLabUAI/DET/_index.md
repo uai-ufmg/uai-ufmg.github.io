@@ -3,7 +3,7 @@ title: DET | Efficient Pedestrian Detection Applied to People Observation
 type: landing
 show_breadcrumb: true
 
-tags: ["RP"]
+tags: ["RP", "Computer Vision"]
 
 sections:
   - block: markdown
