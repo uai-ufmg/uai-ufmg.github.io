@@ -3,7 +3,7 @@ title: DeepEyes | Visual Computing and Machine Intelligence Solutions for Comput
 type: landing
 show_breadcrumb: true
 
-tags: ["RP", "Computer Vision"]
+tags: ["RP", "VS", "Bio", "CV"]
 
 sections:
   - block: markdown

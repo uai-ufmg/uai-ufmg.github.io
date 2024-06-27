@@ -26,18 +26,14 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Geographic and Geological Data Science
-          tag: Deep Learning
+        - name: Sensor Data Processing
+          tag: SDP
+        - name: Visual Surveillance
+          tag: VS
+        - name: Biometrics
+          tag: Bio
         - name: Computer Vision
-          tag: Computer Vision
-        - name: Medical Imaging
-          tag: Medical Imaging
-        - name: Music Machine Learning
-          tag: Music
-        - name: Sports Analytics
-          tag: Sports
-        - name: Uncertainty in AI
-          tag: AI
+          tag: CV
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.

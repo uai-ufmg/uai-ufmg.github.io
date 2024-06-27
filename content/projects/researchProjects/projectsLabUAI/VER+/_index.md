@@ -3,7 +3,7 @@ title: VER+ | Robust and Efficient Surveillance Methodologies
 type: landing
 show_breadcrumb: true
 
-tags: ["RP", "Computer Vision"]
+tags: ["RP", "VS"]
 
 sections:
   - block: markdown

@@ -3,7 +3,7 @@ title: V+ | Video Analytics Solutions
 type: landing
 show_breadcrumb: true
 
-tags: ["RP", "Computer Vision"]
+tags: ["RP", "CV"]
 
 sections:
   - block: markdown

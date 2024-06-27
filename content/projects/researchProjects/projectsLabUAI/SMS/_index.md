@@ -3,7 +3,7 @@ title: SMS | Research and Development of an Intelligent Surveillance System Appl
 type: landing
 show_breadcrumb: true
 
-tags: ["RP", "Computer Vision"]
+tags: ["RP", "SMS", "Bio", "CV"]
 
 sections:
   - block: markdown

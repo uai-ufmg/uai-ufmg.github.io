@@ -3,7 +3,7 @@ title: ARDOP | Robust and Discriminative Approaches to People Observation
 type: landing
 show_breadcrumb: true
 
-tags: ["RP", "Computer Vision"]
+tags: ["RP", "CV"]
 
 sections:
   - block: markdown

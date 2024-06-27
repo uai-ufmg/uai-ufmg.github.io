@@ -3,7 +3,7 @@ title: HITSENSE
 type: landing
 show_breadcrumb: true
 
-tags: ["RP", "Computer Vision"]
+tags: ["RP", "SDP"]
 
 sections:
   - block: markdown
