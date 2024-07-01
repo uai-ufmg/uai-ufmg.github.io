@@ -16,9 +16,9 @@
 
 <div class="col-12 {{if eq $columns "2"}}col-lg-8{{end}}">
   {{ with $block.content.text }}<p>{{ . | emojify | $page.RenderString }}</p>{{ end }}
-
+  
   <div class="mb-3">
-    <form action="https://docs.google.com/forms/d/e/1FAIpQLSc5E0OAcH1TVfjAzlhj6xMg0L8CzjUg-oPBtmfYyPpee3fOPQ/formResponse" method="POST">
+    <form id="contactForm" action="https://docs.google.com/forms/d/e/1FAIpQLSc5E0OAcH1TVfjAzlhj6xMg0L8CzjUg-oPBtmfYyPpee3fOPQ/formResponse" method="POST" target="hidden_iframe" onsubmit="submitForm(event);">
       <!-- Campos do Google Forms -->
       <div class="form-group form-inline">
         <label class="sr-only" for="inputName">{{ i18n "contact_name" }}</label>
@@ -35,9 +35,6 @@
       <button type="submit" class="btn btn-primary px-3 py-2 w-100">{{ i18n "contact_send" | default "Send" }}</button>
     </form>
   </div>
-</div>
-
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 
   <ul class="fa-ul">
     {{ if $data.email }}
@@ -130,3 +127,49 @@
   {{ end }}
 
 </div>
+
+<script>
+function submitForm(event) {
+  event.preventDefault();
+  
+  $.ajax({
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLSc5E0OAcH1TVfjAzlhj6xMg0L8CzjUg-oPBtmfYyPpee3fOPQ/formResponse',
+    method: 'POST',
+    dataType: 'xml',
+    data: $('#contactForm').serialize(),
+    success: function(response) {
+      console.log('Formulário enviado com sucesso.');
+      showSuccessPopup();
+    },
+    error: function(xhr, status, error) {
+      console.error('Erro ao enviar o formulário:', error);
+    }
+  });
+}
+
+function showSuccessPopup() {
+  var popup = document.createElement('div');
+  popup.className = 'success-popup';
+  popup.innerHTML = '<p>Email enviado com sucesso!</p>';
+
+  document.body.appendChild(popup);
+
+  setTimeout(function() {
+    document.body.removeChild(popup);
+  }, 3000);
+}
+</script>
+
+<style>
+.success-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  z-index: 9999;
+}
+</style>
