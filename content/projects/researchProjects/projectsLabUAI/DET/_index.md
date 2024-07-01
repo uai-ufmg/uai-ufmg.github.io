@@ -1,5 +1,5 @@
 ---
-title: DET | Efficient Pedestrian Detection Applied to People Observation
+title: DET
 type: landing
 show_breadcrumb: true
 

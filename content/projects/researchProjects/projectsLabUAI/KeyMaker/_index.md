@@ -1,5 +1,5 @@
 ---
-title: Keymaker | Activity Recognition based on Contextual Information
+title: Keymaker
 type: landing
 show_breadcrumb: true
 

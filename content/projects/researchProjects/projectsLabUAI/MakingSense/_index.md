@@ -1,5 +1,5 @@
 ---
-title: Making Sense |  Robust Approaches to Visual Monitoring
+title: Making Sense
 type: landing
 show_breadcrumb: true
 

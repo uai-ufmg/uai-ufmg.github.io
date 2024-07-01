@@ -1,5 +1,5 @@
 ---
-title: V+ | Video Analytics Solutions
+title: V+
 type: landing
 show_breadcrumb: true
 

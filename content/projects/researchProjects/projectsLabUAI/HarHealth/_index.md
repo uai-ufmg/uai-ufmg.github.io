@@ -1,5 +1,5 @@
 ---
-title: HAR-HEALTH | Recognition of Human Activities Associated with Chronic Diseases
+title: HAR-HEALTH
 type: landing
 show_breadcrumb: true
 

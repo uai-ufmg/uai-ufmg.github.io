@@ -1,5 +1,5 @@
 ---
-title: SMS | Research and Development of an Intelligent Surveillance System Applied to Oil Platforms
+title: SMS
 type: landing
 show_breadcrumb: true
 

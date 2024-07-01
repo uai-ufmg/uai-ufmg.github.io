@@ -1,5 +1,5 @@
 ---
-title: ARDOP | Robust and Discriminative Approaches to People Observation
+title: ARDOP
 type: landing
 show_breadcrumb: true
 

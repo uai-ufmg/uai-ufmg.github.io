@@ -1,5 +1,5 @@
 ---
-title: GigaFrames | Large-Scale Surveillance and Computer Forensics
+title: GigaFrames
 type: landing
 show_breadcrumb: true
 

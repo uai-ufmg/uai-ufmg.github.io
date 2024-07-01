@@ -1,5 +1,5 @@
 ---
-title: VER+ | Robust and Efficient Surveillance Methodologies
+title: VER+
 type: landing
 show_breadcrumb: true
 

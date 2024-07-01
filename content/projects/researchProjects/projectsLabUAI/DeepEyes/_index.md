@@ -1,5 +1,5 @@
 ---
-title: DeepEyes | Visual Computing and Machine Intelligence Solutions for Computer Forensics and Electronic Surveillance
+title: DeepEyes
 type: landing
 show_breadcrumb: true
 
