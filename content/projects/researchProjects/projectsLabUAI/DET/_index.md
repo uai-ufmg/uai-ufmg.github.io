@@ -16,3 +16,5 @@ sections:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
 ---
+
+DET proposes the development of methods for pedestrian detection with the aim of reducing the computational cost and maintaining the accuracy obtained by detectors that obtain good results but have a high computational cost.

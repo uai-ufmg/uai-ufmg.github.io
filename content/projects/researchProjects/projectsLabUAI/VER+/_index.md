@@ -16,3 +16,5 @@ sections:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
 ---
+
+This project focuses on solving problems related to large-scale visual surveillance, where data is acquired from multiple surveillance cameras.

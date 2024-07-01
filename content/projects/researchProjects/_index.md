@@ -20,8 +20,8 @@ sections:
           - term
           - taxonomy
           - home
-      sort_by: 'Date'
-      sort_ascending: false
+      sort_by: 'Name'
+      sort_ascending: true
       default_button_index: 0
       buttons:
         - name: All
@@ -34,12 +34,16 @@ sections:
           tag: Bio
         - name: Computer Vision
           tag: CV
+        - name: GIS
+          tag:
+        - name: Music Machine Learning
+          tag:
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
       # Choose a listing view
-      view:
+      view: masonry
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
 ---

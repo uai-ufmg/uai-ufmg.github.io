@@ -16,3 +16,5 @@ sections:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
 ---
+
+GigaFrames main objective is to implement and consolidate an emerging nucleus characterized by the creation of a line of research called Surveillance and Forensic Computing.

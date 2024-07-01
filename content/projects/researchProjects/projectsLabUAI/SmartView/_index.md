@@ -16,3 +16,5 @@ sections:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
 ---
+
+In order to assist in the monitoring and, consequently, the safety of fans present at sports competitions, this project aims to employ computer vision techniques to automate the resolution of the above problems in order to provide relevant information to those responsible for monitoring fans in sports facilities with the aim of increasing precision and efficiency in decision making.

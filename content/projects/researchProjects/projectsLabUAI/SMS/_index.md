@@ -16,3 +16,5 @@ sections:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
 ---
+
+This project has two objectives. i) the study, development and evaluation of algorithms to be incorporated into the prototype surveillance system capable of automatically analyzing video and ii) creation, development, implementation and experimental validation of a prototype intelligent surveillance system capable of monitoring workers in regions of the oil exploration platform using visual data.

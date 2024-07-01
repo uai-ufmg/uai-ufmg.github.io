@@ -16,3 +16,5 @@ sections:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
 ---
+
+The project addresses the research of new algorithms for recognizing human activities by extracting information such as the importance of objects in carrying out the activity, understanding the interaction of individuals with objects present in the scene.
