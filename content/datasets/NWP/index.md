@@ -68,4 +68,4 @@ projects:
 slides: example
 ---
 
-A Computer Vision Project. See the Dataset in the button above the image.
+Dataset for detection and identification of New World primates, those endemic to Latin America. See the Dataset in the button above the image.
