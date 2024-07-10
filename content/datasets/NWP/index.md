@@ -27,10 +27,10 @@ publication_types: ['paper-conference']
 #publication: In *Wowchemy Conference*
 #publication_short: In *ICW*
 
-abstract: 'A Computer Vision Project'
+abstract: 'Dataset for detection and identification of New World primates, those endemic to Latin America.'
 
 # Summary. An optional shortened abstract.
-summary: 'A Computer Vision Project'
+summary: 'Dataset for detection and identification of New World primates, those endemic to Latin America.'
 
 tags: []
 
