@@ -22,13 +22,10 @@ sections:
       contact_links:
         - icon: envelope
           icon_pack: fas
-          name: contato@uai.science
-        # link: ''
+          name: contact@uai.science
     
-      # Automatically link email and phone or display as text?
       autolink: true
     
-      # Email form provider
       form:
         provider: netlify
         formspree:
