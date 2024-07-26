@@ -11,7 +11,9 @@ sections:
       text: 'We transform science in solutions to challenge problems. '
       button_text: 'Know More'
       button_link: 'aboutus'
-      background_image: dcc-bg.png
+      background_image: dcc-night2.png
+      responsive_image: dcc-night2.png
+
   - block: features2
     content:
       title:
@@ -59,15 +61,15 @@ sections:
       items:
         - name: Geographic and Geological Data Science
           description:
-          icon: ia
+          icon: World
           icon_pack: custom
         - name: Computer Vision
           description:
-          icon: ml
+          icon: Notebook
           icon_pack: custom
         - name: Medical Imaging
           description:
-          icon: ia
+          icon: photo
           icon_pack: custom
         - name: Music Machine Learning
           description:

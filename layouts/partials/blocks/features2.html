@@ -1,85 +1,70 @@
-{{ $page := .wcPage }}
-{{ $block := .wcBlock }}
-
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
+{{ $page := .wcPage }} {{ $block := .wcBlock }}
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
 <div class="swiper-container">
-  <div class="swiper-wrapper">
-    {{ range $block.content.items }}
-    {{ $pack := or .icon_pack "fas" }}
-    {{ $pack_prefix := $pack }}
-    {{ if in (slice "fab" "fas" "far" "fal") $pack }}
-      {{ $pack_prefix = "fa" }}
-    {{ end }}
-    <div class="swiper-slide">
-      {{ with .icon }}
-      <div class="featurette-icon-custom">
-        {{- if eq $pack "emoji" -}}
-          {{- . | emojify -}}
-        {{- else if eq $pack "custom" -}}
-          {{- $svg_icon := resources.Get (printf "media/icons/%s.svg" .) -}}
-          {{- if $svg_icon -}}<img src="{{ $svg_icon.RelPermalink }}" alt="{{.}}" class="svg-icon svg-baseline" loading="lazy">{{- end -}}
-        {{- else -}}
-          <i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i>
-        {{- end -}}
-      </div>
-      {{ end }}
+    <div class="swiper-wrapper">
+        {{ range $block.content.items }} {{ $pack := or .icon_pack "fas" }} {{ $pack_prefix := $pack }} {{ if in (slice "fab" "fas" "far" "fal") $pack }} {{ $pack_prefix = "fa" }} {{ end }}
+        <div class="swiper-slide">
+            {{ with .icon }}
+            <div class="featurette-icon-custom">
+                {{- if eq $pack "emoji" -}} {{- . | emojify -}} {{- else if eq $pack "custom" -}} {{- $svg_icon := resources.Get (printf "media/icons/%s.svg" .) -}} {{- if $svg_icon -}}
+                <img src="{{ $svg_icon.RelPermalink }}" alt="{{.}}" class="svg-icon svg-baseline" loading="lazy"> {{- end -}} {{- else -}}
+                <i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i> {{- end -}}
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
     </div>
-    {{ end }}
-  </div>
 </div>
-
-<style>
-  .swiper-container {
-    overflow: hidden;
-  }
-  .swiper-wrapper {
-    display: flex;
-    animation: slidein 20s linear infinite;
-  }
-  .swiper-slide {
-    flex: 0 0 auto;
-    width: calc(100% / 6);
-  }
-  @keyframes slidein {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
-</style>
-
 <script>
-  var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 'auto',
-    spaceBetween: 30,
-    loop: true,
-    speed: 3000,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 3,
-        spaceBetween: 10
-      },
-      480: {
-        slidesPerView: 3,
-        spaceBetween: 20
-      },
-      640: {
-        slidesPerView: 4,
-        spaceBetween: 30
-      },
-      900: {
-        slidesPerView: 6,
-        spaceBetween: 5
-      }
-    }
-  });
+    document.addEventListener('DOMContentLoaded', function() {
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 'auto',
+            spaceBetween: 30,
+            loop: true,
+            speed: 3000,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 3,
+                    spaceBetween: 10
+                },
+                480: {
+                    slidesPerView: 3,
+                    spaceBetween: 20
+                },
+                640: {
+                    slidesPerView: 4,
+                    spaceBetween: 30
+                },
+                900: {
+                    slidesPerView: 6,
+                    spaceBetween: 5
+                }
+            }
+        });
+    });
 </script>
+<style>
+    .swiper-container {
+        width: 100%;
+        overflow: hidden;
+        background-color: #161616;
+    }
+    
+    .swiper-wrapper {
+        display: flex;
+    }
+    
+    .swiper-slide {
+        flex: 0 0 auto;
+        width: auto;
+    }
+</style>

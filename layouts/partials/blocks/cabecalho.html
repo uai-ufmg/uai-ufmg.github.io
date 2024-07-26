@@ -12,7 +12,8 @@
 <section>
     <div id="{{ $section_id }}" class="{{ $div_class }}">
         {{ $background_image := resources.Get (printf "media/%s" $block.content.background_image) }}
-  {{ if $background_image }}
+        {{ $responsive_image := resources.Get (printf "media/%s" $block.content.responsive_image) }}
+    {{ if and $background_image $responsive_image}}
       <style>
       section.home-section.wg-cabecalho {
         background-image: url('{{ $background_image.RelPermalink }}');
@@ -26,6 +27,11 @@
         flex-direction: column;
         justify-content: center;
         position: relative;
+      }
+      @media (max-width: 1000px) {
+        section.home-section.wg-cabecalho {
+            background-image: url('{{ $responsive_image.RelPermalink }}');
+        }
       }
       @media (min-width: 200px) {
         section.home-section.wg-cabecalho {

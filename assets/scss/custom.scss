@@ -1,6 +1,5 @@
-// Define as cores
-$cor-primaria: #000000; // azul padrão do Bootstrap
-$cor-secundaria: #6c757d; // cinza padrão do Bootstrap
+$cor-primaria: #000000;
+$cor-secundaria: #6c757d;
 
 //
 html, body {
@@ -46,7 +45,6 @@ html, body {
   color: white;
 }
 
-/* Estilos para os links de política e termos */
 .powered-by a:hover {
   text-decoration: underline;
 }
@@ -59,7 +57,7 @@ html, body {
 }
 
 .company-logo {
-  width: 30%; /* Ajuste conforme necessário */
+  width: 30%;
   padding: 10px;
   box-sizing: border-box;
 }
@@ -71,8 +69,8 @@ html, body {
 
 @media screen and (max-width: 768px) {
   .company-logo {
-    width: 45%; /* Ajuste para telas menores */
-    margin-bottom: 20px; /* Espaçamento entre as empresas em telas menores */
+    width: 45%;
+    margin-bottom: 20px;
   }
 }
 
@@ -93,7 +91,6 @@ html, body {
 }
 
 // Meu bloco - Logomarcas dos parceiros
-
 .swiper-container {
   width: 100%;
   height: auto;
@@ -103,7 +100,6 @@ html, body {
   overflow-x: hidden; // NÃO MEXER
 }
 
-/* Ajuste para telas menores */
 @media (max-width: 768px) {
   .swiper-container {
     width: 100%;
@@ -154,7 +150,7 @@ html, body {
 
 .home-section.wg-features2 {
   padding: 0px;
-  background-color: #ffffff;
+  background-color: #161616;
 }
 
 .home-section.wg-markdown {
