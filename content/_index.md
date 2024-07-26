@@ -61,27 +61,27 @@ sections:
       items:
         - name: Geographic and Geological Data Science
           description:
-          icon: World
+          icon: World_
           icon_pack: custom
         - name: Computer Vision
           description:
-          icon: Notebook
+          icon: Notebook_
           icon_pack: custom
         - name: Medical Imaging
           description:
-          icon: photo
+          icon: health
           icon_pack: custom
         - name: Music Machine Learning
           description:
-          icon: ml
+          icon: song
           icon_pack: custom
         - name: Sports Analytics
           description:
-          icon: ia
+          icon: sport
           icon_pack: custom
         - name: Uncertainty in AI
           description:
-          icon: ml
+          icon: uncertainty2
           icon_pack: custom
 
     design:

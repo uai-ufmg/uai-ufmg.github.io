@@ -21,37 +21,34 @@
   </div>
   {{ end }}
 
-  <!-- Contêiner de carrossel apenas para telas pequenas -->
-  <div class="carousel-container">
-    <div class="d-flex flex-row">
-      {{ range $block.content.items }}
-      {{ $pack := or .icon_pack "fas" }}
-      {{ $pack_prefix := $pack }}
-      {{ if in (slice "fab" "fas" "far" "fal") $pack }}
-        {{ $pack_prefix = "fa" }}
-      {{ end }}
-      <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex align-items-stretch flex-grow-1">
-        <div class="card h-100 w-100 glass-card">
-          <div class="card-body text-center">
-            {{ with .icon }}
-            <div class="featurette-icon mb-3">
-              {{- if eq $pack "emoji" -}}
-                {{- . | emojify -}}
-              {{- else if eq $pack "custom" -}}
-                {{- $svg_icon := resources.Get (printf "media/icons/%s.svg" .) -}}
-                {{- if $svg_icon -}}<img src="{{ $svg_icon.RelPermalink }}" alt="{{.}}" class="svg-icon svg-baseline" loading="lazy">{{- end -}}
-              {{- else -}}
-                <i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i>
-              {{- end -}}
-            </div>
-            {{ end }}
-            <h5 class="card-title">{{ .name | markdownify | emojify }}</h5>
-            {{ with .description }}<p class="card-text">{{ . | markdownify | emojify }}</p>{{ end }}
+  <div class="row justify-content-center">
+    {{ range $block.content.items }}
+    {{ $pack := or .icon_pack "fas" }}
+    {{ $pack_prefix := $pack }}
+    {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+      {{ $pack_prefix = "fa" }}
+    {{ end }}
+    <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex align-items-stretch flex-grow-1">
+      <div class="card h-100 w-100 glass-card">
+        <div class="card-body text-center">
+          {{ with .icon }}
+          <div class="featurette-icon mb-3">
+            {{- if eq $pack "emoji" -}}
+              {{- . | emojify -}}
+            {{- else if eq $pack "custom" -}}
+              {{- $svg_icon := resources.Get (printf "media/icons/%s.svg" .) -}}
+              {{- if $svg_icon -}}<img src="{{ $svg_icon.RelPermalink }}" alt="{{.}}" class="svg-icon svg-baseline" loading="lazy">{{- end -}}
+            {{- else -}}
+              <i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i>
+            {{- end -}}
           </div>
+          {{ end }}
+          <h5 class="card-title">{{ .name | markdownify | emojify }}</h5>
+          {{ with .description }}<p class="card-text">{{ . | markdownify | emojify }}</p>{{ end }}
         </div>
       </div>
-      {{ end }}
     </div>
+    {{ end }}
   </div>
 </div>
 
@@ -156,29 +153,5 @@
   section#section-features3,home-section.wg-features3{
     padding: 1vh;
     background-color: #161616;
-  }
-  @media (max-width: 575.98px) {
-    .carousel-container {
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-    }
-    .carousel-container .d-flex {
-      display: flex;
-      flex-wrap: nowrap;
-    }
-    .card {
-      flex: 0 0 auto;
-      margin-right: 1rem;
-    }
-  }
-
-  @media (min-width: 576px) {
-    .carousel-container {
-      overflow: visible;
-    }
-    .carousel-container .d-flex {
-      display: flex;
-      flex-wrap: wrap;
-    }
   }
 </style>
