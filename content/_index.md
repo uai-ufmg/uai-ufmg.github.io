@@ -11,8 +11,8 @@ sections:
       text: 'We transform science in solutions to challenge problems. '
       button_text: 'Know More'
       button_link: 'aboutus'
-      background_image: dcc-night2.png
-      responsive_image: dcc-night2.png
+      background_image: bg9.png
+      responsive_image: bg9.png
 
   - block: features2
     content:
@@ -25,7 +25,6 @@ sections:
         - name: Petrobras
           icon: Company-02
           icon_pack: custom
-          icon_pack: custom
         - name: Petrobras
           icon: Company-03
           icon_pack: custom
@@ -33,7 +32,7 @@ sections:
           icon: Company-04
           icon_pack: custom
         - name: Petrobras
-          icon: Company-05
+          icon: HP
           icon_pack: custom
         - name: Petrobras
           icon: Company-06
@@ -41,8 +40,8 @@ sections:
         - name: Petrobras
           icon: Company-07
           icon_pack: custom
-        - name: Petrobras
-          icon: Company-08
+        - name: CNPq
+          icon: cnpq
           icon_pack: custom
         - name: Petrobras
           icon: Company-09
