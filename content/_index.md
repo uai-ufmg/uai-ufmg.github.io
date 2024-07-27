@@ -87,4 +87,6 @@ sections:
       is_fullscreen: true
       loop: false
       interval: 2000
+      background:
+        text_color_light: false
 ---

@@ -6,6 +6,7 @@
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
 <div class="container my-5">
+  <hr>
   {{ with $block.content.title }}
   <div class="row">
     <div class="col-12 text-center mb-4">
@@ -54,6 +55,7 @@
     {{ end }}
   </div>
 </div>
+
 <style>
   body.featurette-icon {
     background-color: #007bff;
@@ -190,7 +192,7 @@
     flex-grow: 1;
   }
 
-  .t1 {
+  .home-section.light h1 {
     color: #ffffff
   }
 
