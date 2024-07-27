@@ -12,8 +12,7 @@ sections:
       button_text: 'Know More'
       button_link: 'aboutus'
       background_image: bg9.png
-      responsive_image: bg9.png
-
+      responsive_image: bg10.png
   - block: features2
     content:
       title:
@@ -59,36 +58,33 @@ sections:
       text: <br><br>
       items:
         - name: Geographic and Geological Data Science
-          description:
-          icon: World_
+          description: Geographical and geological data science integrates spatial and earth data to analyze and solve complex environmental problems.
+          icon: World
           icon_pack: custom
         - name: Computer Vision
-          description:
-          icon: Notebook_
+          description: Computer vision is a field of computer science that focuses on enabling computers to identify and understand objects and people in images and videos.
+          icon: eye
           icon_pack: custom
         - name: Medical Imaging
-          description:
-          icon: health
+          description: Medical imaging is the technique and process of imaging the interior of a body for clinical analysis and medical intervention.
+          icon: medicine
           icon_pack: custom
         - name: Music Machine Learning
-          description:
-          icon: song
+          description: Music machine learning uses algorithms to analyze, generate, and understand music through data-driven methods.
+          icon: music
           icon_pack: custom
         - name: Sports Analytics
-          description:
+          description: Sports analytics entails gathering and examining historical data to offer a competitive advantage to teams or individuals.
           icon: sport
           icon_pack: custom
         - name: Uncertainty in AI
-          description:
-          icon: uncertainty2
+          description: Uncertainty in AI occurs when there's insufficient information or ambiguity in data, affecting decision-making and predictions.
+          icon: uncertainty
           icon_pack: custom
 
     design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
       is_fullscreen: true
-      # Automatically transition through slides?
       loop: false
-      # Duration of transition between slides (in ms)
       interval: 2000
 ---
