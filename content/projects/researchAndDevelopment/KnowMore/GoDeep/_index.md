@@ -39,6 +39,26 @@ sections:
         - filename: GD-2-4.jpg
         - filename: GD-2-5.jpg
 
+  - block: markdown
+    content:
+      title: Terceiro Workshop do projeto GODeep
+      text: '<p>Tivemos o nosso terceiro workshop do projeto Geoscience Oriented Deep Learning (GODeep) em Agosto/24 para Entrega da Etapa 4.
+              Termo de cooperação entre Petrobras e o laboratório Uncertainty artificial intelligence (LabUAI) - DCC/UFMG que tem como foco o aprimoramento de modelos de aprendizagem de máquina aplicado ao processamento geológico. 
+              Foram 3 dias de muitas apresentações, discussões, muito aprendizado e planejamento para os próximos 2 anos de projeto.'
+
+  - block: image-gallery
+
+    content:
+      images:
+        - filename: GD-3-1.jpeg
+        - filename: GD-3-2.jpeg
+        - filename: GD-3-3.jpeg
+        
+  - block: image-gallery
+    content:
+      images:
+        - filename: GD-3-4.jpeg
+
     design:
       slide_height: ''
       is_fullscreen: true
