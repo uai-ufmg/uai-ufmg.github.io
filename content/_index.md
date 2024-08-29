@@ -8,7 +8,7 @@ sections:
   - block: cabecalho
     content:
       title: 'Welcome to LabUAI.'
-      text: 'We transform science in solutions to challenge problems. '
+      text: 'UAI is a Artificial Intelligence Research from the state of Minas Gerais in Brazil.'
       button_text: 'Know More'
       button_link: 'aboutus'
       background_image: bg9.png
