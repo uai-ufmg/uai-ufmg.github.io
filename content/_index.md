@@ -63,7 +63,7 @@ sections:
           icon_pack: custom
         - name: Computer Vision
           description: Computer vision is a field of computer science that focuses on enabling computers to identify and understand objects and people in images and videos.
-          icon: eye
+          icon: eye_v2
           icon_pack: custom
         - name: Medical Imaging
           description: Medical imaging is the technique and process of imaging the interior of a body for clinical analysis and medical intervention.
