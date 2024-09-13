@@ -11,7 +11,7 @@ sections:
       text: 'UAI is a Artificial Intelligence Research from the state of Minas Gerais in Brazil.'
       button_text: 'Know More'
       button_link: 'aboutus'
-      background_image: bg9.png
+      background_image: bg_home_desktop.webp
       responsive_image: bg10.png
   - block: features2
     content:
