@@ -17,11 +17,10 @@ appearance:
 
 marketing:
   seo:
-    site_type: Organization
+    site_type: ResearchOrganization
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    org_name: 'LabUAI'
+    description: 'The UAI lab is dedicated to exploring and advancing cutting-edge techniques in the domain of artificial intelligence, machine learning, data science and analytics. The main focus of the laboratory lies in investigating topics related to the use of complex data (tables, text, images, time series, graphs, etc.) by artificial intelligence, machine learning, data science and statistics techniques.'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
