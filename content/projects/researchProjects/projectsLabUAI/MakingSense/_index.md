@@ -3,7 +3,7 @@ title: Making Sense
 type: landing
 show_breadcrumb: true
 
-tags: ["RP", "CV"]
+tags: ["RP-en", "CV"]
 
 sections:
   - block: markdown

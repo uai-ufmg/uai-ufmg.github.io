@@ -3,7 +3,7 @@ title: VER+
 type: landing
 show_breadcrumb: true
 
-tags: ["RP", "VS"]
+tags: ["RP-en", "VS"]
 
 sections:
   - block: markdown

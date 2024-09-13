@@ -3,7 +3,7 @@ title: SmartView
 type: landing
 show_breadcrumb: true
 
-tags: ["RP", "Sports"]
+tags: ["RP-en", "Sports"]
 
 sections:
   - block: markdown

@@ -3,7 +3,7 @@ title: DeepEyes
 type: landing
 show_breadcrumb: true
 
-tags: ["RP", "VS", "Bio", "CV"]
+tags: ["RP-en", "VS", "Bio", "CV"]
 
 sections:
   - block: markdown

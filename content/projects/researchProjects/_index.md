@@ -3,7 +3,7 @@ title: "Research Projects"
 show_breadcrumb: true
 type: landing
 
-tags: ["projects"]
+tags: ["projects-en"]
 
 sections:
   - block: portfolio3
@@ -12,7 +12,7 @@ sections:
       title: Research Projects
       filters:
         folders:
-        tags: ["RP"]
+        tags: ["RP-en"]
         exclude_tags: []
         kinds:
           - page

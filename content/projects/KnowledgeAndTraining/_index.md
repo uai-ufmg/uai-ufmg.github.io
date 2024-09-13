@@ -3,7 +3,7 @@ title: "Training projects"
 show_breadcrumb: true
 type: landing
 
-tags: ["projects"]
+tags: ["projects-en"]
 
 sections:
   - block: portfolio
@@ -16,7 +16,7 @@ sections:
         # Folders to display content from
         folders:
         # Only show content with these tags
-        tags: ["training"]
+        tags: ["training-en"]
         # Exclude content with these tags
         exclude_tags: []
         # Which Hugo page kinds to show (https://gohugo.io/templates/section-templates/#page-kinds)

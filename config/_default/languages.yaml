@@ -9,14 +9,29 @@ en:
   #contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+pt:
+  languageCode: pt-br
+  contentDir: content/pt
+  title: LabUAI
+  params:
+    description: Portuguese (Brazil)
+  menu:
+    main:
+      - name: Home
+        url: /
+        weight: 10
+      - name: Sobre
+        url: aboutus
+        weight: 20
+      - name: Membros
+        url: members
+        weight: 30
+      - name: Projetos
+        url: projects
+        weight: 40
+      - name: Datasets
+        url: datasets
+        weight: 50
+      - name: Contato
+        url: contact
+        weight: 60

@@ -27,10 +27,10 @@ publication_types: ['paper-conference']
 #publication: In *Wowchemy Conference*
 #publication_short: In *ICW*
 
-abstract: The SWAX Benchmark The Sense Wax Attack (SWAX) Database comprises images of real persons and their correponding realistic wax-made sculptures. The proposed benchmark seemed to be the only database containing…
+abstract: The SWAX Benchmark The Sense Wax Attack (SWAX) Database comprises images of real persons and their correponding realistic wax-made sculptures.
 
 # Summary. An optional shortened abstract.
-summary: The SWAX Benchmark The Sense Wax Attack (SWAX) Database comprises images of real persons and their correponding realistic wax-made sculptures. The proposed benchmark seemed to be the only database containing…
+summary: The SWAX Benchmark The Sense Wax Attack (SWAX) Database comprises images of real persons and their correponding realistic wax-made sculptures.
 
 tags: []
 
@@ -68,4 +68,4 @@ projects:
 slides: example
 ---
 
-The SWAX Benchmark The Sense Wax Attack (SWAX) Database comprises images of real persons and their correponding realistic wax-made sculptures. The proposed benchmark seemed to be the only database containing…
+The SWAX Benchmark The Sense Wax Attack (SWAX) Database comprises images of real persons and their correponding realistic wax-made sculptures.

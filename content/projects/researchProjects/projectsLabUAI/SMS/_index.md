@@ -3,7 +3,7 @@ title: SMS
 type: landing
 show_breadcrumb: true
 
-tags: ["RP", "SMS", "Bio", "CV"]
+tags: ["RP-en", "SMS", "Bio", "CV"]
 
 sections:
   - block: markdown

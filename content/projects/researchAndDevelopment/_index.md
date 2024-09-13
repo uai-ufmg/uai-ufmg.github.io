@@ -3,7 +3,7 @@ title: Research and Development
 date: 2022-10-24
 show_breadcrumb: true
 
-tags: ["projects"]
+tags: ["projects-en"]
 
 type: landing
 
@@ -22,7 +22,7 @@ sections:
         # Folders to display content from
         folders:
         # Only show content with these tags
-        tags: ["R&D"]
+        tags: ["R&D-en"]
         # Exclude content with these tags
         exclude_tags: []
         # Which Hugo page kinds to show (https://gohugo.io/templates/section-templates/#page-kinds)

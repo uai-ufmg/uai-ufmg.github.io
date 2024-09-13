@@ -3,7 +3,7 @@ title: GODeep - Geoscience Oriented Deep Learning
 type: landing
 show_breadcrumb: true
 
-tags: ["R&D"]
+tags: ["R&D-en"]
 
 sections:
   - block: hero

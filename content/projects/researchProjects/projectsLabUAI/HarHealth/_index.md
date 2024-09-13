@@ -3,7 +3,7 @@ title: HAR-HEALTH
 type: landing
 show_breadcrumb: true
 
-tags: ["RP", "SDP"]
+tags: ["RP-en", "SDP"]
 
 sections:
   - block: markdown

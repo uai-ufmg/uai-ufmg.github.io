@@ -17,7 +17,7 @@ sections:
       title:
       filters:
         folders:
-        tags: ["projects"]
+        tags: ["projects-en"]
         exclude_tags: []
         kinds:
           - page
