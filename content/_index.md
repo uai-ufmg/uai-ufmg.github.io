@@ -12,7 +12,7 @@ sections:
       button_text: 'Know More'
       button_link: 'aboutus'
       background_image: bg_home_desktop.webp
-      responsive_image: bg10.png
+      responsive_image: bg_home_mobile.webp
   - block: features2
     content:
       title:
