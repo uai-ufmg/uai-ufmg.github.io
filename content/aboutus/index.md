@@ -17,7 +17,7 @@ sections:
     custom_id: 'minha-galeria'
     content:
       images:
-        - filename: lab_pic_resized.jpg
+        - filename: lab_pic_resized.webp
 
   - block: markdown
     content:
