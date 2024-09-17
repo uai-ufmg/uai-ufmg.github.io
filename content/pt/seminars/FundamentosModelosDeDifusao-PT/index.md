@@ -1,5 +1,5 @@
 ---
-title: 'Fundamentals and Applications of Diffusion Models'
+title: 'Fundamentos e Aplicações dos Modelos de Difusão'
 
 show_breadcrumb: true
 
@@ -25,9 +25,9 @@ publishDate: '2024-06-14T00:00:00Z'
 # Enter a publication type from the CSL standard.
 publication_types: ['fund-difusao.pdf']
 
-abstract: Seminar on diffusion models are a class of generative models.
+abstract: Seminário sobre modelos de difusão são uma classe de modelos generativos.
 
-summary: Seminar on diffusion models are a class of generative models.
+summary: Seminário sobre modelos de difusão são uma classe de modelos generativos.
 
 url_pdf: seminars/FundamentosModelosDeDifusao/fund-difusao.pdf
 
@@ -40,4 +40,4 @@ image:
   preview_only: false
 ---
 
-<p>Seminar on diffusion models are a class of generative models.</p>
+<p>Seminário sobre modelos de difusão são uma classe de modelos generativos.</p>
