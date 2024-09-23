@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: contact
     content:
-      text: Você pode nos encontrar na Sala 3310 do Departamento de Ciência da Computação (DCC) da Universidade Federal de Minas Gerais (UFMG). Avenida Antonio Carlos, 6627, Pampulha, Belo Horizonte, Minas Gerais, Brasil.
+      text: Você pode nos encontrar na Sala 3310 do Departamento de Ciência da Computação (DCC) da Universidade Federal de Minas Gerais (UFMG). Avenida Antônio Carlos, 6627, Pampulha, Belo Horizonte, Minas Gerais, Brasil.
       title: Contato
       address:
         street: Avenida Antônio Carlos, 6627
