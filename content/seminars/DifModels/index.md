@@ -29,7 +29,7 @@ abstract: Seminar on diffusion models are a class of generative models.
 
 summary: Seminar on diffusion models are a class of generative models.
 
-url_pdf: https://github.com/uai-ufmg/uai-ufmg.github.io/blob/main/content/seminars/FundamentosModelosDeDifusao/fund-difusao.pdf
+url_pdf: https://github.com/uai-ufmg/uai-ufmg.github.io/blob/main/content/seminars/DifModels/fund-difusao.pdf
 
 tags: []
 

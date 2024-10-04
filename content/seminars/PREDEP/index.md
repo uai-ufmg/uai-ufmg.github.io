@@ -15,7 +15,7 @@ publication_types: ['paper-conference']
 
 abstract: Francisco Neves, a student at UAI Laboratory, spoke about Algorithm Partitioning for PREDEP. He showed the development and application of a partitioning intended to improve the estimation of PREDEP metric, which evaluates the predictability between variables.
 
-summary: Seminar presented by Francisco Neves on PREDEP (05/07/2024 at 2 pm).
+summary: Seminar presented by Francisco Neves on PREDEP (05/07/2024 at 2 PM).
 
 tags: []
 

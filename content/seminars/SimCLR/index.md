@@ -18,7 +18,7 @@ publication_types: ['paper-conference']
 
 abstract: SimCLR (Simple Framework for Contrastive Learning of Visual Representations) is a neural network algorithm that trains a model to identify similar images without using pre-defined similarity labels. Therefore, it is called self-supervised. SimCLR creates a latent representation for each image and uses learning based on the contrast between an anchor image and its augmented versions. In this presentation, we will explore self-supervised algorithms, with an emphasis on the SimCLR method. We will discuss the key components of SimCLR, including the data augmentation stage, the role of the encoder, and the projection head. Additionally, we will explain the theory behind contrastive learning and how it contributes to creating efficient representation models.
 
-summary: Seminar presented by Henrique Magalhães on SimCLR (22/06/2024 at 2 pm).
+summary: Seminar presented by Henrique Magalhães on SimCLR (22/06/2024 at 2 PM).
 
 tags: []
 

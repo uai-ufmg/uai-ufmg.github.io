@@ -29,7 +29,7 @@ abstract: Seminário sobre modelos de difusão são uma classe de modelos genera
 
 summary: Seminário sobre modelos de difusão são uma classe de modelos generativos.
 
-url_pdf: https://github.com/uai-ufmg/uai-ufmg.github.io/blob/main/content/seminars/FundamentosModelosDeDifusao/fund-difusao.pdf
+url_pdf: https://github.com/uai-ufmg/uai-ufmg.github.io/blob/main/content/seminars/DifModels/fund-difusao.pdf
 
 tags: []
 
