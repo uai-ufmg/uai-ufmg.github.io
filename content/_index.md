@@ -8,7 +8,7 @@ sections:
   - block: cabecalho
     content:
       title: 'Welcome to LabUAI.'
-      text: 'UAI is a Artificial Intelligence Research from the state of Minas Gerais in Brazil.'
+      text: 'UAI is a Artificial Intelligence Research Lab from the state of Minas Gerais in Brazil.'
       button_text: 'Know More'
       button_link: 'aboutus'
       background_image: bg_home_desktop.webp
