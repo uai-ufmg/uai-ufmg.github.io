@@ -8,7 +8,7 @@ show_breadcrumb: true
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - tiagoMartin
-  - Luisa Carvalhaes
+  - luisa
 
 date: '2024-10-04T00:00:00Z'
 doi: ''
