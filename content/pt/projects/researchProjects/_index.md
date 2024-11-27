@@ -38,6 +38,8 @@ sections:
           tag:
         - name: Aprendizado de máquina musical
           tag:
+        - name: Reviews
+          tag: review
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
