@@ -1,11 +1,28 @@
 ---
 title: Know more (GoDeep)
-date: 2022-10-24
+date: 2025-03-21
 show_breadcrumb: true
 
 type: landing
 
 sections:
+  - block: markdown
+    content:
+      title: Quarto Workshop do projeto GoDeep
+      text: '<p>O quarto workshop do projeto Geoscience Oriented Deep Learning (GoDeep) ocorreu nos dias 19 e 20 de março de 2025. O evento faz parte do termo de cooperação entre a Petrobras e o laboratório Uncertainty Artificial Intelligence (LabUAI) - DCC/UFMG. Durante os dois dias de evento, foram apresentados os resultados alcançados até o momento, além de trocas de conhecimento e discussões sobre o projeto.'
+
+  - block: image-gallery
+
+    content:
+      images:
+        - filename: GD-4-7.png
+        - filename: GD-4-1.png
+        - filename: GD-4-2.png
+        - filename: GD-4-3.png
+        - filename: GD-4-4.png
+        - filename: GD-4-5.png
+        - filename: GD-4-6_.png
+
   - block: markdown
     content:
       title: Terceiro Workshop do projeto GoDeep

@@ -1,6 +1,6 @@
 ---
 title: Know more (GoDeep)
-date: 2022-10-24
+date: 2025-03-21
 show_breadcrumb: true
 
 type: landing
@@ -8,10 +8,27 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: Terceiro Workshop do projeto GoDeep
-      text: '<p>Tivemos o nosso terceiro workshop do projeto Geoscience Oriented Deep Learning (GoDeep) em Agosto/24 para Entrega da Etapa 4.
-              Termo de cooperação entre Petrobras e o laboratório Uncertainty Artificial Intelligence (LabUAI) - DCC/UFMG que tem como foco o aprimoramento de modelos de aprendizagem de máquina aplicado ao processamento geológico. 
-              Foram 3 dias de muitas apresentações, discussões, muito aprendizado e planejamento para os próximos 2 anos de projeto.'
+      title: Fourth Workshop of the GoDeep project.
+      text: '<p>The fourth workshop of the Geoscience Oriented Deep Learning (GoDeep) project took place on March 19 and 20, 2025. The event is part of the cooperation agreement between Petrobras and the Uncertainty Artificial Intelligence (LabUAI) laboratory - DCC/UFMG. During the two-day event, the results achieved to date were presented, in addition to knowledge exchange and discussions about the project.'
+
+  - block: image-gallery
+
+    content:
+      images:
+        - filename: GD-4-7.png
+        - filename: GD-4-1.png
+        - filename: GD-4-2.png
+        - filename: GD-4-3.png
+        - filename: GD-4-4.png
+        - filename: GD-4-5.png
+        - filename: GD-4-6_.png
+
+  - block: markdown
+    content:
+      title: Third Workshop of the GoDeep project.
+      text: '<p>We held our third workshop for the Geoscience Oriented Deep Learning (GoDeep) project in August/24 for the delivery of Stage 4.
+      A cooperation agreement between Petrobras and the Uncertainty Artificial Intelligence (LabUAI) laboratory - DCC/UFMG, which focuses on improving machine learning models applied to geological processing.
+      There were 3 days of many presentations, discussions, a lot of learning and planning for the next 2 years of the project.'
 
   - block: image-gallery
 
@@ -28,8 +45,8 @@ sections:
 
   - block: markdown
     content:
-      title: Equipe do GoDeep visita CENPES e Petrobras
-      text: '<p>Em fevereiro de 2024, a equipe representada pelos professores Flavio, Renato e Pedro (DCC), Alexei (PUC-MG) e a Patrícia (GP GoDeep) estiveram na sede da Petrobras e no CENPES. Durante os três dias que estiveram lá, os professores e os alunos participaram, remoto e presencialmente, de reuniões para discutir questões técnicas e gerenciais no escopo do projeto, que visa fazer uso de técnicas de IA, em particular Aprendizado Profundo, para avanços na interpretação de dados de interesse da Petrobras.'
+      title: GoDeep team visits CENPES and Petrobras.
+      text: '<p>In February 2024, the team represented by professors Flavio, Renato and Pedro (DCC), Alexei (PUC-MG) and Patrícia (GP GoDeep) were at Petrobras headquarters and at CENPES. During the three days they were there, the professors and students participated, remotely and in person, in meetings to discuss technical and managerial issues within the scope of the project, which aims to use AI techniques, in particular Deep Learning, to advance the interpretation of data of interest to Petrobras.'
 
   - block: image-gallery
 
@@ -43,9 +60,9 @@ sections:
 
   - block: markdown
     content:
-      title: Equipe do DCC promove workshop para profissionais da Petrobras
-      text: '<p>Terminou, nesta quinta-feira (10/08/23), o workshop de alinhamento de temas, expectativas e logísticas do projeto Geoscience Oriented Deep Learning (GoDeep). O projeto, em parceria com a Petrobras, busca o aprimoramento de modelos de aprendizagem de máquina profundo, deep learning, para a solução de problemas das  geociências. Do ponto de vista computacional, o projeto foca na aplicação de modelos de aprendizado de máquina em dados de caráter complexo como imagens e séries temporais. Para a geociências, tais modelos são úteis na exploração de Petróleo a partir de imagens sísmicas, fáceis e dados de mineração de poços.
-       O encontrou durou três dias, sendo que no primeiro cada uma das três linhas do projeto falaram sobre: (1) resultados até agora alcançados; (2) frentes de pesquisa atuais; (3) expectativas do DCC/UFMG; (4) expectativas da Petrobras. Já no segundo dia, foram feitos grupos de discussão com base nos ítens (3) e (4) acima, tendo um grupo por linha, cada grupo em uma sala. Posteriormente, os grupos de trabalhos discutiram qual será o alinhamento entre o DCC/UFMG e a Petrobras no curto e médio prazo. Para finalizar, no terceiro dia, foram discutidas questões logísticas.'
+      title: DCC team promotes workshop for Petrobras professionals.
+      text: '<p>The workshop on aligning themes, expectations and logistics of the Geoscience Oriented Deep Learning (GoDeep) project ended this Thursday (08/10/23). The project, in partnership with Petrobras, seeks to improve deep learning models to solve problems in the geosciences. From a computational point of view, the project focuses on the application of machine learning models to complex data such as images and time series. For the geosciences, such models are useful in oil exploration using seismic images, facile images and well mining data.
+      The meeting lasted three days, with each of the three lines of the project talking about: (1) results achieved so far; (2) current research fronts; (3) expectations of DCC/UFMG; (4) expectations of Petrobras. On the second day, discussion groups were held based on items (3) and (4) above, with one group per line, each group in a room. The working groups then discussed the alignment between DCC/UFMG and Petrobras in the short and medium term. Finally, on the third day, logistical issues were discussed.'
 
   - block: image-gallery
     custom_id: 'minha-galeria'
