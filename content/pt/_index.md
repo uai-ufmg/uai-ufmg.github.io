@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: cabecalho
     content:
-      title: 'Bem vindo ao LabUAI.'
+      title: 'Bem-vindo ao LabUAI.'
       text: 'O LabUAI é um laboratório de pesquisa de Inteligência Artificial do estado de Minas Gerais no Brasil.'
       button_text: 'Saiba mais'
       button_link: 'aboutus'
