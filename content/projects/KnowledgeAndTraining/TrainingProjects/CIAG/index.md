@@ -30,7 +30,7 @@ sections:
       title: Events
       subtitle: 7th edition (CIAG)​
       text: |-
-        <p>Learn more about the 7th edition of the event, an initiative designed to support companies in training their employees and fostering knowledge-sharing within institutions.
+        <p>Find out more about the 7th edition of the event, an initiative that aims to support Petrobras in training its employees and encourage knowledge sharing within institutions.
 
   - block: image-gallery
     custom_id: 'minha-galeria'

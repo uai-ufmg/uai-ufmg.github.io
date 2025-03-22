@@ -30,7 +30,7 @@ sections:
       title: Eventos
       subtitle: 7ª edição (CIAG)​
       text: |-
-        <p>Saiba mais sobre a 7ª edição do evento, uma iniciativa que visa apoiar empresas na capacitação de seus colaboradores e fomentar o compartilhamento de conhecimento dentro das instituições.
+        <p>Saiba mais sobre a 7ª edição do evento, uma iniciativa que visa apoiar a Petrobras na capacitação de seus colaboradores e fomentar o compartilhamento de conhecimento dentro das instituições.
 
   - block: image-gallery
     custom_id: 'minha-galeria'
