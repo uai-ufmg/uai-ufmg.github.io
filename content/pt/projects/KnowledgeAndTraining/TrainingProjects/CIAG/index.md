@@ -25,6 +25,23 @@ sections:
         <p>Nesse contexto, a Petrobras mantém parceria com a DCC há vários anos e, nesta sexta-feira (26/04/24), a sexta turma de profissionais da empresa concluiu o curso Deep Learning. Durante as dez semanas que durou o curso, os alunos foram acompanhados por professores e tutores especialistas do DCC, abrangendo as áreas de Ciência da Computação, Matemática Computacional e Sistemas de Informação. Esses profissionais trabalharam em estreita colaboração e capacitaram os alunos nesta imersão no mundo do deep learning utilizando redes neurais. Durante o curso, os participantes aprenderam a utilizar o Deep Learning, técnica que consegue lidar com diversos tipos de dados que a Petrobras coleta rotineiramente e também se dedicaram à construção de um projeto, onde propuseram soluções para problemas vivenciados no dia a dia.
         Segundo o professor Flávio Vinicius Diniz de Figueiredo, coordenador do projeto, todos os objetivos do curso foram alcançados. “Era um grupo muito dedicado e alinhado, conseguimos atingir todos os nossos objetivos e os da empresa. Nossa parceria já existe há alguns anos e tem dado muito certo. Em breve teremos mais uma turma para qualificar e agregar ainda mais valor aos profissionais da Petrobras”, disse.
 
+  - block: markdown
+    content:
+      title: Eventos
+      subtitle: 7ª edição (CIAG)​
+      text: |-
+        <p>Saiba mais sobre a 7ª edição do evento, uma iniciativa que visa apoiar empresas na capacitação de seus colaboradores e fomentar o compartilhamento de conhecimento dentro das instituições.
+
+  - block: image-gallery
+    custom_id: 'minha-galeria'
+    content:
+      images:
+        - filename: CIAG-1-5.jpeg
+        - filename: CIAG-1-3.jpeg   
+        - filename: CIAG-1-4.jpeg
+        - filename: CIAG-1-6.jpeg
+        - filename: CIAG-1-2.jpeg   
+
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.

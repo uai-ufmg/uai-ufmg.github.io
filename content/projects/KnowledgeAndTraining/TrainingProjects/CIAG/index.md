@@ -25,8 +25,25 @@ sections:
         <p>In this context, Petrobras has maintained a partnership with DCC for several years and, this Friday (04/26/24), the company's sixth group of professionals completed the Deep Learning course. During the ten weeks that the course lasted, students were accompanied by specialist teachers and tutors from DCC, covering the areas of Computer Science, Computational Mathematics and Information Systems. These professionals worked closely and qualified students in this immersion in the world of deep learning using neural networks. During the course, participants learn how to use Deep Learning, a technique that can handle different types of data that Petrobras routinely collects and also dedicated themselves to building a project, where they proposed solutions to problems experienced on a daily basis.
         According to professor Flávio Vinicius Diniz de Figueiredo, who coordinates the project, all the course's objectives were achieved. “It was a very dedicated and aligned group, we managed to achieve all our goals and those of the company. Our partnership has been going on for a few years and has been working very well. Soon we will have another class to qualify and add even more value to Petrobras professionals”, he said.
 
+  - block: markdown
+    content:
+      title: Events
+      subtitle: 7th edition (CIAG)​
+      text: |-
+        <p>Learn more about the 7th edition of the event, an initiative designed to support companies in training their employees and fostering knowledge-sharing within institutions.
+
+  - block: image-gallery
+    custom_id: 'minha-galeria'
+    content:
+      images:
+        - filename: CIAG-1-5.jpeg
+        - filename: CIAG-1-3.jpeg   
+        - filename: CIAG-1-4.jpeg
+        - filename: CIAG-1-6.jpeg
+        - filename: CIAG-1-2.jpeg             
+
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+      columns: '2'
 ---
