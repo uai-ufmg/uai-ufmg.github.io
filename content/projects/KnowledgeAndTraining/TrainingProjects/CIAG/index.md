@@ -30,7 +30,7 @@ sections:
       title: Events
       subtitle: 7th edition (CIAG)​
       text: |-
-        <p>Find out more about the 7th edition of the event, an initiative that aims to support Petrobras in training its employees and encourage knowledge sharing within institutions.
+        <p>Conclusion of the 7th edition of the Artificial Intelligence Applied to Geosciences Course (CIAG), a partnership between Petrobras and the Computer Science Department (DCC) of UFMG. Course closing event with presentations of projects and attended by students, professors, monitors and managers. The event took place at Petrobras - EDIHB.
 
   - block: image-gallery
     custom_id: 'minha-galeria'
