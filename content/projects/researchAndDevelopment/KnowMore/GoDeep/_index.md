@@ -67,7 +67,7 @@ sections:
   - block: markdown
     content:
       title: DCC team promotes workshop for Petrobras professionals.
-      text: '<p>The workshop on aligning themes, expectations and logistics of the Geoscience Oriented Deep Learning (GoDeep) project ended this Thursday (08/10/23). The project, in partnership with Petrobras, seeks to improve deep learning models to solve problems in the geosciences. From a computational point of view, the project focuses on the application of machine learning models to complex data such as images and time series. For the geosciences, such models are useful in oil exploration using seismic images, facile images and well mining data.
+      text: '<p>The workshop on aligning themes, expectations and logistics of the Geoscience Oriented Deep Learning (GoDeep) project ended this Thursday (08/10/23). The project, in partnership with Petrobras, seeks to improve deep learning models to solve problems in geosciences. From a computational point of view, the project focuses on the application of machine learning models to complex data such as images and time series. For geosciences, such models are useful in oil exploration based on seismic images, facies and well mining data.
       The meeting lasted three days, with each of the three lines of the project talking about: (1) results achieved so far; (2) current research fronts; (3) expectations of DCC/UFMG; (4) expectations of Petrobras. On the second day, discussion groups were held based on items (3) and (4) above, with one group per line, each group in a room. The working groups then discussed the alignment between DCC/UFMG and Petrobras in the short and medium term. Finally, on the third day, logistical issues were discussed.'
 
   - block: image-gallery
