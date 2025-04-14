@@ -7,7 +7,7 @@ sections:
     content:
       title: About us
       text: >
-        The UAI lab is dedicated to exploring and advancing cutting-edge techniques in the domain of artificial intelligence, machine learning, data science and analytics. The main focus of the laboratory lies in investigating topics related to the use of complex data (tables, text, images, time series, graphs, etc.) by artificial intelligence, machine learning, data science and statistics techniques.
+        LabUAI is dedicated to exploring and developing cutting-edge techniques in artificial intelligence, machine learning, data science, and data analytics. Its main focus is to investigate how complex data—such as tables, text, images, time series, and graphs—can be leveraged using AI, machine learning, data science, and statistics methods.
 
         
         Our history of excellence and achievements goes back to the Smart Sense Lab research group, founded in 2013, and the Laboratory of Statistical Learning founded in 2020. In June 2023, professors from both laboratories, Flavio Figueiredo, Renato Martins, Pedro Olmo and William Schwartz, gave rise to the UAI.

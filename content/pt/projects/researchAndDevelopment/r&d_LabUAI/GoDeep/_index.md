@@ -16,7 +16,7 @@ sections:
         url: "/projects/researchanddevelopment/knowmore/godeep/"
 
       text: |-
-        O projeto Geoscience Oriented Deep Learning (GoDeep), em parceria com a Petrobras, busca aprimorar modelos de aprendizado de máquina profundo para resolver problemas de geociências. Do ponto de vista computacional, o projeto concentra-se na aplicação de modelos de aprendizado de máquina a dados complexos, como imagens e séries temporais. Para as geociências, tais modelos são úteis na exploração de petróleo a partir de imagens sísmicas, dados fácies e de mineração de poços.
+        O projeto Geoscience Oriented Deep Learning (GoDeep), em parceria com a Petrobras, tem como principal objetivo a pesquisa, desenvolvimento e implementação de modelos matemáticos baseados em aprendizado de máquina com o intuito de automatizar algumas das principais tarefas executadas por geocientistas durante o processo de modelagem geológica na fase de interpretação exploratória.​
 
         <!--Custom spacing-->
         <div class="mb-3"></div>

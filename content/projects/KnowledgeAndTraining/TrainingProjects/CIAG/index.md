@@ -11,7 +11,7 @@ sections:
       title: CIAG
       subtitle: Artificial Intelligence Course applied to Geosciences (CIAG)​
       text: |-
-        <p>With the aim of helping companies in the process of training their employees and, thus, disseminating knowledge within institutions, researchers from the Department of Computer Science (DCC) at UFMG, who have extensive experience in marketing and innovation, created courses and closed professional residencies in Data Science, developed based on the specific characteristics and interests of each organization. During the course it is possible to level and disseminate the teams' skills and, at the same time, the residencies allow participants to create solutions to problems they experience on a daily basis and that can bring gains to everyone's work processes and the company's results.
+        <p>Researchers from the Department of Computer Science (DCC) at UFMG, who have extensive experience in innovation, work in partnership with Petrobras on the Artificial Intelligence Applied to Geosciences Course (CIAG). The course is currently in its 7th edition.
 
   - block: image-gallery
     custom_id: 'minha-galeria'

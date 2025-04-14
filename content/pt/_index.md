@@ -8,7 +8,7 @@ sections:
   - block: cabecalho
     content:
       title: 'Bem-vindo ao LabUAI.'
-      text: 'O LabUAI é um laboratório de pesquisa de Inteligência Artificial no estado de Minas Gerais, no Brasil.'
+      text: 'O LabUAI é um laboratório de pesquisa em Inteligência Artificial do DCC - UFMG.'
       button_text: 'Saiba mais'
       button_link: 'aboutus'
       background_image: bg_home_desktop.webp

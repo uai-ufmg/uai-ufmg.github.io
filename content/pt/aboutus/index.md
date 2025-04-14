@@ -7,7 +7,7 @@ sections:
     content:
       title: Sobre nós
       text: >
-        O LabUAI dedica-se a explorar e desenvolver técnicas de ponta no domínio da inteligência artificial, aprendizagem automática, ciência de dados e análise. O foco principal do laboratório está na investigação de temas relacionados ao uso de dados complexos (tabelas, textos, imagens, séries temporais, gráficos, etc.) por inteligência artificial, aprendizado de máquina, ciência de dados e técnicas de estatística.
+        O LabUAI dedica-se a explorar e desenvolver técnicas de ponta em inteligência artificial, aprendizado de máquina, ciência de dados e análise de dados. Seu foco principal é investigar como dados complexos — como tabelas, textos, imagens, séries temporais e gráficos — podem ser aproveitados usando métodos de IA, aprendizado de máquina, ciência de dados e estatística.
 
         
         Nossa história de excelência e conquistas remonta ao grupo de pesquisa Smart Sense Lab, fundado em 2013, e ao Laboratório de Aprendizagem Estatística, fundado em 2020. Em junho de 2023, os professores de ambos os laboratórios, Flavio Figueiredo, Renato Martins, Pedro Olmo e William Schwartz, deram origem ao UAI.

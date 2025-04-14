@@ -12,23 +12,20 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4 text-center text-md-left mb-3 mb-md-0">
-        <div class="d-flex justify-content-center justify-content-md-start">
-          <div class="footer-logo mr-2">
-            <img src="https://www.synergia.dcc.ufmg.br/images/logo-dcc-ufmg-2.png" alt="Logo DCC UFMG" class="img-fluid" width="80vh">
-          </div>
-          <div class="footer-logo">
-            <img src="https://ufmg.br/static/logo-ufmg.svg" alt="Logo UFMG" class="img-fluid" width="65vh">
-          </div>
+        <div class="footer-social-icons d-flex justify-content-center justify-content-md-start">
+          <a href="https://github.com/uai-ufmg" target="_blank" class="text-light mx-2"><i class="fab fa-github fa-lg"></i></a>
+          <a href="https://www.linkedin.com/company/labuai" target="_blank" class="text-light mx-2"><i class="fab fa-linkedin fa-lg"></i></a>
+          <a href="https://www.instagram.com/lab_uai/" target="_blank" class="text-light mx-2"><i class="fab fa-instagram fa-lg"></i></a>
         </div>
       </div>
       <div class="col-md-4 text-center mb-3 mb-md-0">
         <p class="mb-0">&copy; 2024 Copyright - All rights reserved</p>
       </div>
-      <div class="col-md-4 text-center text-md-right">
-        <div class="footer-social-icons">
-          <a href="https://github.com/uai-ufmg" target="_blank" class="text-light mx-2"><i class="fab fa-github fa-lg"></i></a>
-          <a href="https://www.linkedin.com/company/labuai" target="_blank" class="text-light mx-2"><i class="fab fa-linkedin fa-lg"></i></a>
-          <a href="https://www.instagram.com/lab_uai/" target="_blank" class="text-light mx-2"><i class="fab fa-instagram fa-lg"></i></a>
+      <div class="col-md-4 text-center text-md-right mb-3 mb-md-0">
+        <div class="d-flex justify-content-center justify-content-md-end">
+          <div class="footer-logo">
+            <img src="/images/dcc ufmg.png" alt="Logo DCC UFMG" class="img-fluid">
+          </div>
         </div>
       </div>
     </div>
@@ -44,18 +41,20 @@
     height: auto;
   }
 
-  .footer-social-icons a {
-    color: inherit;
-    text-decoration: none;
+  .footer-logo img,
+  .footer-img {
+    max-width: 150px;
+    height: auto;
   }
+
+  @media (max-width: 768px) {
+    .footer-logo img,
+    .footer-img {
+      max-width: 125px;
+    }
+}
 
   .footer-social-icons a:hover {
     color: #007bff;
-  }
-
-  @media (max-width: 576px) {
-    .footer-logo {
-      margin-bottom: 10px;
-    }
   }
 </style>

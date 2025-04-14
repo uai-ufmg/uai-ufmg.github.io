@@ -10,16 +10,18 @@ sections:
     content:
       title: Samarco Data science residency
       subtitle:
-      text: '<p>Six months ago, Samarco selected 16 employees from different areas to form the first Data Science Residency class, in partnership with the Department of Computer Science at UFMG. And this Friday (03/03/2023) our professionals completed this stage, where they delved deeply, applied knowledge and developed models and prototypes of solutions with great potential for creating value for the business.
+      text: '<p>Samarco selected 16 employees from different areas to make up the first Data Science Residency class, in partnership with the Computer Science Department at UFMG. On March 3, 2023, these professionals completed this stage, where they delved deeper, applied knowledge and developed models and prototypes of solutions with great potential to create value for the business.
 
-      The main objective of the Program was to enhance the development of our people in Data Science, an inevitable opportunity for the mining industry.
+      The main objective of the program was to enhance the development of Data Science, an unavoidable opportunity for the mining industry.
 
       
-      Melissa Cangussu Vianna is a Strategic Marketing analyst at the company and loved participating in the Program. "It was a great experience, as it allowed the knowledge of the tutors and professors at UFMG to join our daily practice here at Samarco."
+      Melissa Cangussu Vianna is a Strategic Marketing Analyst at the company and loved participating in the program. “It was a great experience, as it allowed the knowledge of UFMG tutors and professors to join our daily practice here at Samarco.”
 
-      Our Business Development and Innovation manager, Bruno S. Pimentel, reinforces that “the Program brings an innovative format for learning and applying critical knowledge for Samarco.” According to him, “the partnership with one of the best Computer Science schools in Brazil makes all the difference.”
+      
+      The Business Development and Innovation Manager, Bruno S. Pimentel, reinforces that “the Program brings an innovative format for learning and applying critical knowledge to Samarco”. According to him, “the partnership with one of the best Computer Science schools in Brazil makes all the difference.”
 
-      This is another initiative that is part of the Movement for Innovation, an initiative that reinforces the companys mobilization to advance its purpose of mining differently, more sustainable and safe..'
+      
+      This is yet another initiative that is part of the Movement for Innovation, an initiative that reinforces the company’s mobilization to advance its mining purpose in a different, more sustainable and safer way.'
 
   - block: image-gallery
     custom_id: 'minha-galeria'

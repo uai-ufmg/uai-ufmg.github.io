@@ -11,7 +11,7 @@ sections:
       title: CIAG
       subtitle: Curso de Inteligência Artificial aplicada às Geociências (CIAG)​
       text: |-
-        <p>Visando auxiliar as empresas no processo de formação de seus colaboradores e, assim, disseminar o conhecimento dentro das instituições, pesquisadores do Departamento de Ciência da Computação (DCC) da UFMG, que possuem ampla experiência em marketing e inovação, criaram cursos e fecharam residências profissionais em Data Science, desenvolvido com base nas características e interesses específicos de cada organização. Durante o curso, é possível nivelar e disseminar as competências das equipes e, ao mesmo tempo, as residências permitem que os participantes criem soluções para problemas que vivenciam no dia a dia e que podem trazer ganhos aos processos de trabalho de todos e aos resultados da empresa. 
+        <p>Os pesquisadores do Departamento de Ciência da Computação (DCC) da UFMG, que possuem ampla experiência em inovação, atuam em parceria com a Petrobras no Curso de Inteligência Artificial Aplicada às Geociências (CIAG)​. Atualmente, o curso está em sua 7⁠ª edição.
 
   - block: image-gallery
     custom_id: 'minha-galeria'
