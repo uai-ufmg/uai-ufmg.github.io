@@ -10,7 +10,7 @@
 {{ end }}
 
 {{/* Breadcrumb */}}
-{{ $authorName := .Name | replaceRE "(^\\d+-)" "" | humanize | title }} 
+{{ $authorName := .Name | replaceRE "(^\\d+-)" "" | humanize | title }}
 {{ $breadcrumb := slice "Home" "Members" $authorName }}
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
@@ -61,17 +61,17 @@
       padding: 12px 18vh;
       border-radius: 4px;
     }
-  
+
     .breadcrumb-item {
       display: flex;
       margin-right: 5px;
       max-width: 200px;
     }
-  
+
     .breadcrumb-item.active {
       color: #6c757d;
     }
-  
+
     @media (max-width: 450px) {
         .breadcrumb {
             display: none;

@@ -8,10 +8,10 @@ sections:
   - block: cabecalho
     content:
       title: 'Welcome to LabUAI.'
-      text: 'LabUAI is an Artificial Intelligence research laboratory at DCC - UFMG..'
+      text: 'LabUAI is an Artificial Intelligence research laboratory at DCC - UFMG.'
       button_text: 'Know More'
       button_link: 'aboutus'
-      background_image: bg_home_desktop.webp
+      background_image: bg_desktop.png
       responsive_image: bg_home_mobile.webp
   - block: features2
     content:

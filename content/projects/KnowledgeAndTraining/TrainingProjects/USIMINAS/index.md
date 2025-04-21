@@ -3,7 +3,7 @@ title:  Data science residency
 type: landing
 show_breadcrumb: true
 
-tags: ["training-en"]
+tags: [""]
 
 sections:
   - block: markdown

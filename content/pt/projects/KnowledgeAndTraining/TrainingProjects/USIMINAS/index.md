@@ -3,7 +3,7 @@ title:  Residência em ciência de dados
 type: landing
 show_breadcrumb: true
 
-tags: ["training-pt"]
+tags: [""]
 
 sections:
   - block: markdown

@@ -11,7 +11,7 @@ sections:
       text: 'O LabUAI é um laboratório de pesquisa em Inteligência Artificial do DCC - UFMG.'
       button_text: 'Saiba mais'
       button_link: 'aboutus'
-      background_image: bg_home_desktop.webp
+      background_image: bg_desktop.png
       responsive_image: bg_home_mobile.webp
   - block: features2
     content:

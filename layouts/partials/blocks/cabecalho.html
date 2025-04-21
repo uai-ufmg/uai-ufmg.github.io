@@ -1,20 +1,30 @@
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
+
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100..800&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
 </head>
 <!-- Bloco de Cabeçalho -->
 {{ $section_id := "section-cabecalho" }}
 {{ $div_class := "home-section wg-cabecalho" }}
 <section>
-    <div id="{{ $section_id }}" class="{{ $div_class }}">
-        {{ $background_image := resources.Get (printf "media/%s" $block.content.background_image) }}
-        {{ $responsive_image := resources.Get (printf "media/%s" $block.content.responsive_image) }}
+  <div id="{{ $section_id }}" class="{{ $div_class }}">
+    {{ $background_image := resources.Get (printf "media/%s" $block.content.background_image) }}
+    {{ $responsive_image := resources.Get (printf "media/%s" $block.content.responsive_image) }}
     {{ if and $background_image $responsive_image}}
-      <style>
+    <style>
       section.home-section.wg-cabecalho {
         background-image: url('{{ $background_image.RelPermalink }}');
         background-size: cover;
@@ -28,49 +38,57 @@
         justify-content: center;
         position: relative;
       }
+
       @media (max-width: 1000px) {
         section.home-section.wg-cabecalho {
-            background-image: url('{{ $responsive_image.RelPermalink }}');
+          background-image: url('{{ $responsive_image.RelPermalink }}');
         }
       }
+
       @media (min-width: 200px) {
         section.home-section.wg-cabecalho {
           height: 78vh;
         }
       }
+
       @media (min-width: 1000px) {
         section.home-section.wg-cabecalho {
           height: 78vh;
         }
       }
+
       #{{ $section_id }} {
         background-color: transparent;
       }
+
       .home-section {
         padding: 110px 0;
         position: inherit;
       }
+
       .conteudo-cabecalho {
         text-align: center;
         color: #ffffff;
         padding: 20px;
         z-index: 1;
       }
+
       .conteudo-cabecalho p {
-        font-family: 'Sora', sans-serif;
+        font-family: 'Arial';
         font-weight: 200;
+        font-size: 20px;
+        margin-bottom: 20px;
       }
+
       .conteudo-cabecalho h1 {
-        font-family: 'Sora';
-        font-weight: 500;
+        font-family: 'Arial';
+        font-weight: 400;
         color: #ffffff;
-        font-size: 3em;
+        font-size: 80px;
+        line-height: 70px;
         margin-bottom: 20px;
       }
-      .conteudo-cabecalho p {
-        font-size: 0.9em;
-        margin-bottom: 20px;
-      }
+
       .botao-saiba-mais {
         align-items: center;
         display: inline-block;
@@ -82,13 +100,14 @@
         font-size: 1em;
         transition: background-color 0.6s ease;
       }
-    
+
       .botao-saiba-mais:hover {
         background-color: #19136d;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
       }
 
-      .botao-saiba-mais:hover, .botao-saiba-mais:hover * {
+      .botao-saiba-mais:hover,
+      .botao-saiba-mais:hover * {
         color: #fff;
         text-decoration: none;
       }
@@ -103,23 +122,23 @@
       path {
         fill: #ffff;
       }
-        </style>
-        <div class="conteudo-cabecalho">
-            <h1>{{ $block.content.title }}</h1>
-            <p>{{ $block.content.text }}</p>
-            {{ if $block.content.button_text }}
-            <a href="projects" class="botao-saiba-mais"> {{ $block.content.button_text }}</a>
-            {{ end }}
-        </div>
-        {{ else }}
-        <p>Imagem de fundo não encontrada: {{ $block.content.background_image }}</p>
-        <style>
-          .home-section-bg {
-            background-color: white;
-          }
-        </style>
-        {{ end }}
+    </style>
+    <div class="conteudo-cabecalho">
+      <h1>{{ $block.content.title }}</h1>
+      <p>{{ $block.content.text }}</p>
+      {{ if $block.content.button_text }}
+      <a href="projects" class="botao-saiba-mais"> {{ $block.content.button_text }}</a>
+      {{ end }}
     </div>
+    {{ else }}
+    <p>Imagem de fundo não encontrada: {{ $block.content.background_image }}</p>
+    <style>
+      .home-section-bg {
+        background-color: white;
+      }
+    </style>
+    {{ end }}
+  </div>
 </section>
 <script>
   document.querySelectorAll('.scroll-to').forEach(button => {
@@ -147,14 +166,17 @@
   });
 </script>
 <section id="next-section"></section>
+
 <style>
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  overflow-x: hidden;
-}
-section {
-  width: 100%;
-}
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  section {
+    width: 100%;
+  }
 </style>
