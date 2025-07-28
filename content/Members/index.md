@@ -11,6 +11,7 @@ sections:
       user_groups:
           - Professors
           - Team
+          - Alumni Students
       sort_by: Params.first_name
       sort_ascending: true
     design:
