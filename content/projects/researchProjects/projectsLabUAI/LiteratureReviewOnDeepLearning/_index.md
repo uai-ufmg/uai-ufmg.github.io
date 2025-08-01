@@ -5,6 +5,8 @@ show_breadcrumb: true
 
 tags: ["RP-en", "review"]
 
+url_project: 'https://www.sciencedirect.com/science/article/abs/pii/S0012825224002836'
+
 sections:
   - block: markdown
     content:
