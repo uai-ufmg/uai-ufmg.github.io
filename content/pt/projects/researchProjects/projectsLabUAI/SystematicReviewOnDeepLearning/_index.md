@@ -5,7 +5,7 @@ show_breadcrumb: true
 
 tags: ["RP-pt", "review"]
 
-url_pdf: '/content/projects/researchProjects/projectsLabUAI/SystematicReviewOnDeepLearning/L3_Systematic.pdf'
+url_pdf: 'https://github.com/uai-ufmg/uai-ufmg.github.io/blob/main/content/projects/researchProjects/projectsLabUAI/SystematicReviewOnDeepLearning/L3_Systematic.pdf'
 url_dataset: ''
 url_project: 'https://link.springer.com/article/10.1007/s10618-024-01079-y'
 
