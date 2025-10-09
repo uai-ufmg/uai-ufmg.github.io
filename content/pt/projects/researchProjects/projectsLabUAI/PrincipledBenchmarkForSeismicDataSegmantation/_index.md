@@ -3,7 +3,7 @@ title: 'Um benchmark baseado em princípios para segmentação de dados sísmico
 type: landing
 show_breadcrumb: true
 
-tags: ["RP-pt", "review"]
+tags: ["RP-pt", "articles"]
 
 url_project: 'https://ieeexplore.ieee.org/document/11018421'
 
