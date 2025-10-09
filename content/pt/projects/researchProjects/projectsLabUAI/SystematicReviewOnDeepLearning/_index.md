@@ -3,7 +3,7 @@ title: Review sistemático de aprendizagem profunda para interpretação geológ
 type: landing
 show_breadcrumb: true
 
-tags: ["RP-pt", "review"]
+tags: ["RP-pt", "articles"]
 
 url_pdf: 'https://github.com/uai-ufmg/uai-ufmg.github.io/blob/main/content/projects/researchProjects/projectsLabUAI/SystematicReviewOnDeepLearning/L3_Systematic.pdf'
 url_dataset: ''
