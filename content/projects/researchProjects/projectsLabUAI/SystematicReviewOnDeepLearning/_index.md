@@ -3,7 +3,7 @@ title: Systematic review of deep learning for structural geological interpretati
 type: landing
 show_breadcrumb: true
 
-tags: ["RP-en", "review"]
+tags: ["RP-en", "articles"]
 
 url_pdf: 'https://github.com/uai-ufmg/uai-ufmg.github.io/blob/main/content/projects/researchProjects/projectsLabUAI/SystematicReviewOnDeepLearning/L3_Systematic.pdf'
 url_dataset: ''
