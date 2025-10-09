@@ -3,7 +3,7 @@ title: Review de literatura sobre aprendizagem profunda para segmentação de im
 type: landing
 show_breadcrumb: true
 
-tags: ["RP-pt", "review"]
+tags: ["RP-pt", "articles"]
 
 url_project: 'https://www.sciencedirect.com/science/article/abs/pii/S0012825224002836'
 
