@@ -3,7 +3,7 @@ title: 'A Principled Benchmark for Seismic Data Segmentation'
 type: landing
 show_breadcrumb: true
 
-tags: ["RP-en", "articles"]
+tags: ["RP-en", "Articles"]
 
 url_project: 'https://ieeexplore.ieee.org/document/11018421'
 
