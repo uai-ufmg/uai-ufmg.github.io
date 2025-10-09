@@ -3,7 +3,7 @@ title: 'Imputation in well log data: A benchmark for machine learning methods'
 type: landing
 show_breadcrumb: true
 
-tags: ["RP-en", "review"]
+tags: ["RP-en", "Articles"]
 
 url_project: 'https://www.sciencedirect.com/science/article/abs/pii/S0098300424002723'
 
