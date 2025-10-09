@@ -3,7 +3,7 @@ title: Echoes of Humanity | Exploring the Perceived Humanness of AI Music
 type: landing
 show_breadcrumb: true
 
-tags: ["RP-en", "articles","Music Machine Learning"]
+tags: ["RP-en", "articles"]
 
 url_dataset: ''
 url_project: 'https://arxiv.org/abs/2509.25601'
