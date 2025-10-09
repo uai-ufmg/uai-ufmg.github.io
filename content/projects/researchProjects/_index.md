@@ -38,8 +38,8 @@ sections:
           tag:
         - name: Music Machine Learning
           tag:
-        - name: Reviews
-          tag: review
+        - name: Articles
+          tag: articles
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -48,4 +48,5 @@ sections:
       view: masonry
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+
 ---
