@@ -1,5 +1,5 @@
 ---
-title: Echoes of Humanity: Exploring the Perceived Humanness of AI Music
+title: Echoes of Humanity | Exploring the Perceived Humanness of AI Music
 type: landing
 show_breadcrumb: true
 
