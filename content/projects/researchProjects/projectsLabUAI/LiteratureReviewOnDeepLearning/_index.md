@@ -3,7 +3,7 @@ title: Literature review on deep learning for the segmentation of seismic images
 type: landing
 show_breadcrumb: true
 
-tags: ["RP-en", "review"]
+tags: ["RP-en", "Articles"]
 
 url_project: 'https://www.sciencedirect.com/science/article/abs/pii/S0012825224002836'
 
