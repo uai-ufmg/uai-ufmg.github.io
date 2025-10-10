@@ -3,7 +3,7 @@ title: DTL
 type: landing
 show_breadcrumb: true
 
-tags: ["RP-en", "artigos"]
+tags: ["RP-pt", "artigos"]
 
 url_dataset: ''
 url_project: 'https://www.sciencedirect.com/science/article/abs/pii/S0098300425002110'
