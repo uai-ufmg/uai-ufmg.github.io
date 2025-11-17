@@ -7,7 +7,7 @@ type: landing
 
 sections:
  - block: markdown
-    content:
+   content:
       title: Quinto Workshop do projeto GoDeep
       text: '<p>O 5º workshop do projeto Geoscience Oriented Deep Learning (GoDeep) foi realizado nos dias 13 e 14 de novembro de 2025. Ao longo dos dois dias, foram apresentados os resultados da entrega da Etapa 5, e os grupos de trabalho de cada linha de pesquisa discutiram avanços, alinharam encaminhamentos e aprofundaram-se nas análises técnicas. O encontro foi marcado por intensa colaboração, troca de conhecimentos e pela definição de direcionamentos futuros para as próximas etapas do GoDeep.'
    
@@ -113,6 +113,7 @@ sections:
       loop: true
       interval: 3000
 ---
+
 
 
 
