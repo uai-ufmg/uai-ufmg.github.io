@@ -15,14 +15,14 @@ sections:
     content:
       images:
         - filename: GD-5-1.png
-        - filename: GD-5-12.png
-        - filename: GD-5-4.png
+        - filename: GD-5-21.png
+        - filename: GD-5-20.png
         - filename: GD-5-16.png
         - filename: GD-5-5.png
         - filename: GD-5-17.gif
         - filename: GD-5-11.png
-        - filename: GD-5-15.png
-        - filename: GD-5-9.jpg
+        - filename: GD-5-19.png
+        - filename: GD-5-18.png
 
   - block: image-gallery
 
@@ -112,6 +112,7 @@ sections:
       loop: true
       interval: 3000
 ---
+
 
 
 
