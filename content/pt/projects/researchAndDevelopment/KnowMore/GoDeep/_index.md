@@ -37,7 +37,7 @@ sections:
       text: '<p>O quarto workshop do projeto Geoscience Oriented Deep Learning (GoDeep) ocorreu nos dias 19 e 20 de março de 2025. O workshop faz parte do termo de cooperação entre DCC/UFMG e a Petrobras, como parte do projeto GoDeep - Geoscience Oriented Deep Learning. Durante os dois dias de evento, foram apresentados os resultados alcançados até o momento, além de trocas de conhecimento e discussões sobre o projeto.'
 
   - block: image-gallery
-    custom_id: 'minha-galeria'
+   
     content:
       images:
         - filename: GD-4-7.png
@@ -113,5 +113,6 @@ sections:
       loop: true
       interval: 3000
 ---
+
 
 
