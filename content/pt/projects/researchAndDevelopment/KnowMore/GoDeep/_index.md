@@ -24,7 +24,7 @@ sections:
         - filename: GD-5-8.png
         - filename: GD-5-9.png
 
- - block: image-gallery
+  - block: image-gallery
 
     content:
       images:
@@ -112,6 +112,7 @@ sections:
       loop: true
       interval: 3000
 ---
+
 
 
 
