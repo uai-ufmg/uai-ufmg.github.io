@@ -6,12 +6,11 @@ show_breadcrumb: true
 type: landing
 
 sections:
- - block: markdown
+  - block: markdown
     content:
       title: Fifth Workshop of the GoDeep project
-      text: '<p>The 5º workshop of the Geoscience Oriented Deep Learning (GoDeep) project took place on November 13 and 14, 2025. This edition took place online for the Petrobras team in Rio de Janeiro, and in person at DCC/UFMG, bringing all participants together in a hybrid format. Over the two days, the results of the delivery of Stage 5 were presented, and the working groups from each research line discussed progress, aligned next steps, and delved deeper into technical analyses. The meeting was marked by intense collaboration, knowledge exchange, and the definition of future directions for the next stages of GoDeep.</p>'
+      text: '<p>The 5º workshop of the Geoscience Oriented Deep Learning (GoDeep) project took place on November 13 and 14, 2025. This edition took place online for the Petrobras team in Rio de Janeiro.</p>'
   - block: image-gallery
-    
     content:
       images:
         - filename: GD-5-1.png
@@ -112,4 +111,5 @@ sections:
       loop: true
       interval: 3000
 ---
+
 
