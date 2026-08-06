@@ -10,7 +10,7 @@ sections:
     content:
       title: Sexto Workshop do projeto GoDeep
       text: '<p>Realizamos o 6º Workshop do projeto Geoscience Oriented Deep Learning (GoDeep) nos dias 27 e 28 de julho, na Petrobras. Durante o encontro, apresentamos os principais resultados alcançados por cada linha de pesquisa, consolidando um importante espaço para troca de conhecimento, discussão dos avanços obtidos, compartilhamento das contribuições desenvolvidas e fortalecimento da inovação aplicada ao setor de óleo e gás. Além da apresentação dos resultados, foram realizados grupos de trabalho dedicados ao planejamento das próximas atividades, com foco no alinhamento das expectativas da Petrobras e na definição das estratégias para o próximo ano do projeto, reforçando o compromisso com a pesquisa, o desenvolvimento tecnológico e a inovação. </p>'
-  - block: image-gallery
+   - block: image-gallery
     custom_id: 'minha-galeria'
     content:
       images:
