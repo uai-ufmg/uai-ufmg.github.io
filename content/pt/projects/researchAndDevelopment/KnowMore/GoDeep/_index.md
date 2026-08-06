@@ -5,7 +5,7 @@ show_breadcrumb: true
 
 type: landing
 
-sections:
+- sections:
   - block: markdown
     content:
       title: Sexto Workshop do projeto GoDeep
