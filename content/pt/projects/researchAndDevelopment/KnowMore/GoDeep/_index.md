@@ -17,11 +17,11 @@ sections:
         - filename: W6_1.png
         - filename: W6_2.png
         - filename: W6_3.png
-        - filename: W6_4.png
-        - filename: W6_5.jpeg
-        - filename: W6_6.jpeg
-        - filename: W6_7.jpeg
-        - filename: W6_8.jpeg
+        - filename: W6_4.jpeg
+        - filename: W6_5.jpg
+        - filename: W6_6.jpg
+        - filename: W6_7.jpg
+        - filename: W6_8.jpg
 
   - block: markdown
     content:
