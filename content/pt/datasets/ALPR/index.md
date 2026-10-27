@@ -39,7 +39,7 @@ featured: true
 
 url_pdf: ''
 #url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://www.dropbox.com/scl/fi/gl6y1atvr06nyq2vvbw9c/h6f86gl.zip?rlkey=l33ulfa3a99j93lu2zslgwo9o&dl=1'
+#url_dataset: 'https://www.dropbox.com/scl/fi/gl6y1atvr06nyq2vvbw9c/h6f86gl.zip?rlkey=l33ulfa3a99j93lu2zslgwo9o&dl=1'
 url_poster: ''
 url_project: ''
 url_slides: ''
