@@ -39,10 +39,10 @@ featured: true
 
 url_pdf: ''
 #url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-#url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_poster: ''
-url_project: ''
-url_slides: ''
+url_dataset: 'https://www.dropbox.com/scl/fi/uaia6vesdyumtvnecycdr/MoRe.zip?rlkey=5i2hnk2fpfmdj2dfms77oqhte&dl=1'
+#url_poster: ''
+#url_project: ''
+#url_slides: ''
 #url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
 #url_video: 'https://youtube.com'
 
