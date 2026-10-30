@@ -39,10 +39,10 @@ featured: true
 
 url_pdf: ''
 #url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://www.dropbox.com/scl/fi/wy05e65rhtjnreinv85bl/dataset_ETHZ.zip?rlkey=qe8q56tyqchg7qn6t8i5u5vmo&dl=1'
-#url_poster: ''
-#url_project: 'https://www.dropbox.com/scl/fi/wy05e65rhtjnreinv85bl/dataset_ETHZ.zip?rlkey=qe8q56tyqchg7qn6t8i5u5vmo&dl=1'
-#url_slides: ''
+#url_dataset: 'https://www.dropbox.com/scl/fi/wy05e65rhtjnreinv85bl/dataset_ETHZ.zip?rlkey=qe8q56tyqchg7qn6t8i5u5vmo&dl=1'
+url_poster: ''
+url_project: ''
+url_slides: ''
 #url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
 #url_video: 'https://youtube.com'
 
