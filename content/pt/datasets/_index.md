@@ -2,7 +2,7 @@
 title: Datasets
 
 sections:
-   - block: collection
+  - block: collection
     content:
       title: Datasets
       filters:
@@ -12,7 +12,6 @@ sections:
       sort_ascending: false
       view: citation
 
-# Optional banner image (relative to `assets/media/` folder).
 banner:
   caption: ''
   image: ''
