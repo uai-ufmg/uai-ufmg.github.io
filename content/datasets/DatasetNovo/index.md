@@ -47,7 +47,7 @@ url_dataset: 'https://drive.google.com/drive/folders/1Wws9HiHtA6YjuuckJIRZ86uEnq
 #url_video: 'https://youtube.com'
 
 # Featured image
-# To use, add an image named `imagem_dataset.jpg/png` to your page's folder.
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   focal_point: ''
   preview_only: false
