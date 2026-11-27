@@ -12,7 +12,7 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2026-11-27T00:00:00Z'
+date: '2026-11-26T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -40,9 +40,9 @@ featured: true
 url_pdf: ''
 #url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 url_dataset: 'https://drive.google.com/drive/folders/1Wws9HiHtA6YjuuckJIRZ86uEnq9paCvc'
-url_poster: ''
-url_project: ''
-url_slides: ''
+#url_poster: ''
+#url_project: ''
+#url_slides: ''
 #url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
 #url_video: 'https://youtube.com'
 
