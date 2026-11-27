@@ -27,10 +27,10 @@ publication_types: ['paper-conference']
 #publication: In *Wowchemy Conference*
 #publication_short: In *ICW*
 
-abstract: 'This dataset, called Sense SegPlate Database, aims to evaluate the problem of vehicle license plate character segmentation (LPCS). The experimental results for the article Reference for License Plate Character Segmentation (link to search page) were obtained using a dataset providing 101 on-track vehicles captured during the day. The video was recorded using a still camera in early 2015.'
+abstract: 'Parihaka-Channels is the first publicly available dataset of manual paleochannel annotations on real seismic data. It is built on the open-access Parihaka-3D survey (590 inlines × 782 crosslines × 1006 time samples) from the offshore Taranaki Basin, New Zealand, which is rich in channel systems but until now had only facies labels.'
 
 # Summary. An optional shortened abstract.
-summary: 'This dataset, called Sense SegPlate Database, aims to evaluate the problem of vehicle license plate character segmentation (LPCS). The experimental results for the article Reference for License Plate Character Segmentation (link to search page) were obtained using a dataset providing 101 on-track vehicles captured during the day. The video was recorded using a still camera in early 2015.'
+summary: 'Parihaka-Channels is the first publicly available dataset of manual paleochannel annotations on real seismic data. It is built on the open-access Parihaka-3D survey (590 inlines × 782 crosslines × 1006 time samples) from the offshore Taranaki Basin, New Zealand, which is rich in channel systems but until now had only facies labels.'
 
 tags: []
 
@@ -47,7 +47,7 @@ url_dataset: 'https://drive.google.com/drive/folders/1Wws9HiHtA6YjuuckJIRZ86uEnq
 #url_video: 'https://youtube.com'
 
 # Featured image
-# To use, add an image named `imagem_dataset.png` to your page's folder.
+# To use, add an image named `imagem_dataset.jpg/png` to your page's folder.
 image:
   focal_point: ''
   preview_only: false
