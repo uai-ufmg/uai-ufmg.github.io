@@ -2,7 +2,6 @@
 title: Datasets
 
 sections:
-
    - block: collection
     content:
       title: Datasets
